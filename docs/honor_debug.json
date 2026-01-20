@@ -1,0 +1,134 @@
+[
+    {
+        "uid": 2,
+        "user": "Тентара",
+        "char": {
+            "region": "eu",
+            "realm": "goldrinn",
+            "name": "тентара"
+        },
+        "http": {
+            "pvp_summary": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/goldrinn\/%D1%82%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B0\/pvp-summary?namespace=profile-eu&locale=ru_RU"
+            },
+            "statistics": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/goldrinn\/%D1%82%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B0\/statistics?namespace=profile-eu&locale=ru_RU"
+            }
+        },
+        "honor_candidates": {
+            "pvp_summary": [
+                {
+                    "path": "honorable_kills",
+                    "value": 10873
+                },
+                {
+                    "path": "honorable_kills",
+                    "value": 10873
+                }
+            ]
+        }
+    },
+    {
+        "uid": 4,
+        "user": "Vrazboynik",
+        "char": {
+            "region": "eu",
+            "realm": "eversong",
+            "name": "вразбойник"
+        },
+        "http": {
+            "pvp_summary": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/eversong\/%D0%B2%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA\/pvp-summary?namespace=profile-eu&locale=ru_RU"
+            },
+            "statistics": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/eversong\/%D0%B2%D1%80%D0%B0%D0%B7%D0%B1%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA\/statistics?namespace=profile-eu&locale=ru_RU"
+            }
+        },
+        "honor_candidates": {
+            "pvp_summary": [
+                {
+                    "path": "honorable_kills",
+                    "value": 2420
+                },
+                {
+                    "path": "honorable_kills",
+                    "value": 2420
+                }
+            ]
+        }
+    },
+    {
+        "uid": 6,
+        "user": "Звераго",
+        "char": {
+            "region": "eu",
+            "realm": "blackscar",
+            "name": "звераго"
+        },
+        "http": {
+            "pvp_summary": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/blackscar\/%D0%B7%D0%B2%D0%B5%D1%80%D0%B0%D0%B3%D0%BE\/pvp-summary?namespace=profile-eu&locale=ru_RU"
+            },
+            "statistics": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/blackscar\/%D0%B7%D0%B2%D0%B5%D1%80%D0%B0%D0%B3%D0%BE\/statistics?namespace=profile-eu&locale=ru_RU"
+            }
+        },
+        "honor_candidates": {
+            "pvp_summary": [
+                {
+                    "path": "honorable_kills",
+                    "value": 82962
+                },
+                {
+                    "path": "honorable_kills",
+                    "value": 82962
+                }
+            ]
+        }
+    },
+    {
+        "uid": 13,
+        "user": "Друидишна",
+        "char": {
+            "region": "eu",
+            "realm": "eversong",
+            "name": "Друидишна"
+        },
+        "http": {
+            "pvp_summary": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/eversong\/%D0%B4%D1%80%D1%83%D0%B8%D0%B4%D0%B8%D1%88%D0%BD%D0%B0\/pvp-summary?namespace=profile-eu&locale=ru_RU"
+            },
+            "statistics": {
+                "status": 200,
+                "ok": true,
+                "url": "https:\/\/eu.api.blizzard.com\/profile\/wow\/character\/eversong\/%D0%B4%D1%80%D1%83%D0%B8%D0%B4%D0%B8%D1%88%D0%BD%D0%B0\/statistics?namespace=profile-eu&locale=ru_RU"
+            }
+        },
+        "honor_candidates": {
+            "pvp_summary": [
+                {
+                    "path": "honorable_kills",
+                    "value": 9191
+                },
+                {
+                    "path": "honorable_kills",
+                    "value": 9191
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Рейтинг почетных побед</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 24px; background: #0b0d10; color: #e7edf7; }
+    a { color: #7fc1ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    .top { display: flex; gap: 12px; flex-wrap: wrap; align-items: end; justify-content: space-between; }
+    h1 { font-size: 20px; margin: 0 0 6px; }
+    .meta { font-size: 13px; opacity: 0.85; }
+    .controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+    input[type="search"]{
+      background: #11161d; color: #e7edf7; border: 1px solid #243041;
+      border-radius: 10px; padding: 10px 12px; min-width: 260px;
+      outline: none;
+    }
+    input[type="search"]:focus { border-color: #3a7bd5; }
+    .card { margin-top: 14px; background: #0f141b; border: 1px solid #1e2a3a; border-radius: 14px; overflow: hidden; }
+    table { width: 100%; border-collapse: collapse; }
+    thead th{
+      background: #0f1722; border-bottom: 1px solid #1e2a3a;
+      text-align: left; font-size: 12px; letter-spacing: .02em;
+      padding: 12px 12px; user-select: none; cursor: pointer;
+      position: sticky; top: 0;
+    }
+    tbody td{ border-top: 1px solid #182233; padding: 12px 12px; vertical-align: middle; }
+    tbody tr:hover { background: rgba(127,193,255,0.06); }
+    .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .rank { width: 70px; }
+    .small { font-size: 12px; opacity: 0.85; }
+    .err { margin-top: 14px; padding: 12px 14px; border-radius: 12px; border: 1px solid #4a2a2a; background: #1a0f10; color: #ffd0d0; display: none; }
+
+    /* Топ-3 по месту рейтинга (фиксированному) */
+    tr.gold   { background: linear-gradient(90deg, rgba(255,215,0,0.18), rgba(255,215,0,0.02)); }
+    tr.silver { background: linear-gradient(90deg, rgba(192,192,192,0.18), rgba(192,192,192,0.02)); }
+    tr.bronze { background: linear-gradient(90deg, rgba(205,127,50,0.18), rgba(205,127,50,0.02)); }
+
+    @media (max-width: 700px){
+      body { padding: 16px; }
+      input[type="search"]{ min-width: 180px; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>Рейтинг почетных побед</h1>
+        <div class="meta" id="meta">Загрузка…</div>
+      </div>
+
+      <div class="controls">
+        <input id="q" type="search" placeholder="Поиск: персонаж или сервер" autocomplete="off" />
+      </div>
+    </div>
+
+    <div class="err" id="err"></div>
+
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th class="rank" data-key="fixed_rank">Место</th>
+            <th data-key="skype">Персонаж</th>
+            <th data-key="honorable_kills_month">Почетные победы за месяц</th>
+            <th data-key="honorable_kills_prev_month">Почетные победы за прошлый месяц</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr><td colspan="4" class="small">Загрузка…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    const tbody = document.getElementById('tbody');
+    const meta = document.getElementById('meta');
+    const errBox = document.getElementById('err');
+    const q = document.getElementById('q');
+
+    let rows = [];
+    let fixedRankByKey = new Map(); // ключ персонажа -> место в рейтинге (по месяцу)
+    let sortKey = 'honorable_kills_month';
+    let sortDir = 'desc';
+
+    // Профиль на текущем сайте (относительный путь)
+    function profileUrl(uid) {
+      return '/index/8-' + String(uid);
+    }
+
+    function escapeHtml(s) {
+      return String(s ?? '').replace(/[&<>"']/g, c => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+      }[c]));
+    }
+
+    function fmt(n) {
+      if (n === null || n === undefined) return '0';
+      const v = Number(n);
+      if (!Number.isFinite(v)) return '0';
+      return v.toLocaleString('ru-RU');
+    }
+
+    function capitalizeFirst(s) {
+      s = String(s ?? '').trim();
+      if (!s) return '';
+      return s.charAt(0).toUpperCase() + s.slice(1);
+    }
+
+    // "Имя-Сервер" берем из skype. Делает первую букву имени заглавной.
+    function displayChar(skype, name, realm) {
+      const raw = String(skype ?? '').trim();
+      if (raw) {
+        const idx = raw.indexOf('-');
+        if (idx > 0) {
+          const n = raw.slice(0, idx);
+          const r = raw.slice(idx + 1);
+          return capitalizeFirst(n) + '-' + r;
+        }
+        return capitalizeFirst(raw);
+      }
+      return capitalizeFirst(name) + (realm ? '-' + realm : '');
+    }
+
+    // Ключ для ранжирования (желательно стабильный)
+    function rowKey(r) {
+      // uid у вас уникален и надежен, но на всякий случай подкрепим skype
+      return String(r.uid ?? '') + '|' + String(r.skype ?? '').toLowerCase();
+    }
+
+    function setError(msg) {
+      errBox.style.display = msg ? 'block' : 'none';
+      errBox.textContent = msg || '';
+    }
+
+    function buildFixedRanks() {
+      fixedRankByKey = new Map();
+
+      const sortedForRank = [...rows].sort((a, b) => {
+        const am = Number(a.honorable_kills_month ?? 0);
+        const bm = Number(b.honorable_kills_month ?? 0);
+        if (bm !== am) return bm - am;
+
+        const at = Number(a.honorable_kills_total ?? 0);
+        const bt = Number(b.honorable_kills_total ?? 0);
+        return bt - at;
+      });
+
+      sortedForRank.forEach((r, idx) => {
+        fixedRankByKey.set(rowKey(r), idx + 1);
+      });
+    }
+
+    function render() {
+      const needle = q.value.trim().toLowerCase();
+
+      let filtered = rows.filter(r => {
+        if (!needle) return true;
+        const char = displayChar(r.skype, r.name, r.realm).toLowerCase();
+        return char.includes(needle);
+      });
+
+      filtered.sort((a, b) => {
+        if (sortKey === 'skype') {
+          const as = displayChar(a.skype, a.name, a.realm).toLowerCase();
+          const bs = displayChar(b.skype, b.name, b.realm).toLowerCase();
+          if (as < bs) return sortDir === 'asc' ? -1 : 1;
+          if (as > bs) return sortDir === 'asc' ? 1 : -1;
+          return 0;
+        }
+
+        if (sortKey === 'fixed_rank') {
+          const ar = fixedRankByKey.get(rowKey(a)) ?? 999999;
+          const br = fixedRankByKey.get(rowKey(b)) ?? 999999;
+          return sortDir === 'asc' ? (ar - br) : (br - ar);
+        }
+
+        const an = Number(a[sortKey] ?? 0);
+        const bn = Number(b[sortKey] ?? 0);
+        return sortDir === 'asc' ? (an - bn) : (bn - an);
+      });
+
+      if (filtered.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="4" class="small">Ничего не найдено.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = filtered.map(r => {
+        const key = rowKey(r);
+        const fixedRank = fixedRankByKey.get(key) ?? 0;
+
+        const trClass = fixedRank === 1 ? 'gold' : fixedRank === 2 ? 'silver' : fixedRank === 3 ? 'bronze' : '';
+
+        const charLabel = displayChar(r.skype, r.name, r.realm);
+        const uid = r.uid ?? 0;
+
+        const month = fmt(r.honorable_kills_month ?? 0);
+        const prev  = fmt(r.honorable_kills_prev_month ?? 0);
+
+        return `
+          <tr class="${trClass}">
+            <td class="num rank">${fixedRank}</td>
+            <td><a href="${escapeHtml(profileUrl(uid))}" target="_blank" rel="noopener">${escapeHtml(charLabel)}</a></td>
+            <td class="num">${month}</td>
+            <td class="num">${prev}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    async function load() {
+      setError('');
+      tbody.innerHTML = `<tr><td colspan="4" class="small">Загрузка…</td></tr>`;
+
+      const res = await fetch(`rating.json?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Не удалось загрузить rating.json (HTTP ${res.status})`);
+
+      const data = await res.json();
+
+      rows = Array.isArray(data.rows) ? data.rows : [];
+      meta.textContent = `Месяц: ${data.month || '–'} · Обновлено (UTC): ${data.updated_utc || '–'} · Записей: ${rows.length}`;
+
+      if (Array.isArray(data.errors) && data.errors.length) {
+        setError('Ошибки при сборке: ' + data.errors.map(e => e.char || '').join(' | '));
+      }
+
+      buildFixedRanks();
+      render();
+    }
+
+    // сортировка по клику на заголовок
+    document.querySelectorAll('thead th').forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.getAttribute('data-key');
+        if (!key) return;
+
+        if (sortKey === key) sortDir = (sortDir === 'asc') ? 'desc' : 'asc';
+        else {
+          sortKey = key;
+          // по месту логично вверх (1,2,3...), по имени вверх, по числам вниз
+          if (key === 'fixed_rank') sortDir = 'asc';
+          else if (key === 'skype') sortDir = 'asc';
+          else sortDir = 'desc';
+        }
+
+        render();
+      });
+    });
+
+    q.addEventListener('input', render);
+
+    load().catch(e => {
+      meta.textContent = 'Ошибка загрузки данных.';
+      setError(e.message);
+      tbody.innerHTML = `<tr><td colspan="4" class="small">Данные недоступны.</td></tr>`;
+    });
+  </script>
+</body>
+</html>
