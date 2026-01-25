@@ -1,98 +1,98 @@
 [
     {
-        "checked": "yes",
+        "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
         "required": "no",
         "code": "home_page",
-        "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)"
-    },
-    {
-        "checked": "yes",
-        "code": "birthday",
-        "required": "no",
-        "name": "Дата рождения"
-    },
-    {
-        "checked": "no",
-        "code": "icq",
-        "required": "no",
-        "name": "ICQ номер"
-    },
-    {
-        "name": "Jabber-идентификатор",
-        "required": "no",
-        "code": "jabber",
-        "checked": "no"
-    },
-    {
-        "name": "Персонаж в игре (имя-сервер)",
-        "checked": "yes",
-        "required": "no",
-        "code": "skype"
-    },
-    {
-        "code": "yahoo",
-        "required": "no",
-        "checked": "no",
-        "name": "Yahoo-идентификатор"
-    },
-    {
-        "code": "country",
-        "required": "no",
-        "checked": "no",
-        "name": "Страна"
-    },
-    {
-        "name": "Штат",
-        "checked": "no",
-        "code": "state",
-        "required": "no"
-    },
-    {
-        "name": "Город",
-        "required": "no",
-        "code": "city",
-        "checked": "no"
-    },
-    {
-        "checked": "yes",
-        "code": "gender",
-        "required": "no",
-        "name": "Пол пользователя"
-    },
-    {
-        "name": "Подпись",
-        "checked": "yes",
-        "code": "signature",
-        "required": "no"
-    },
-    {
-        "name": "Аватар",
-        "required": "no",
-        "code": "avatar",
         "checked": "yes"
     },
     {
-        "code": "phone",
+        "name": "Дата рождения",
         "required": "no",
-        "checked": "no",
-        "name": "Номер телефона"
+        "code": "birthday",
+        "checked": "yes"
     },
     {
+        "required": "no",
+        "name": "ICQ номер",
+        "code": "icq",
+        "checked": "no"
+    },
+    {
+        "checked": "no",
+        "code": "jabber",
+        "required": "no",
+        "name": "Jabber-идентификатор"
+    },
+    {
+        "checked": "yes",
+        "required": "no",
+        "code": "skype",
+        "name": "Персонаж в игре (имя-сервер)"
+    },
+    {
+        "checked": "no",
+        "code": "yahoo",
+        "required": "no",
+        "name": "Yahoo-идентификатор"
+    },
+    {
+        "checked": "no",
+        "required": "no",
+        "name": "Страна",
+        "code": "country"
+    },
+    {
+        "required": "no",
+        "code": "state",
+        "name": "Штат",
+        "checked": "no"
+    },
+    {
+        "checked": "no",
+        "name": "Город",
+        "required": "no",
+        "code": "city"
+    },
+    {
+        "name": "Пол пользователя",
+        "required": "no",
+        "code": "gender",
+        "checked": "yes"
+    },
+    {
+        "name": "Подпись",
+        "required": "no",
+        "code": "signature",
+        "checked": "yes"
+    },
+    {
+        "checked": "yes",
+        "code": "avatar",
+        "required": "no",
+        "name": "Аватар"
+    },
+    {
+        "checked": "no",
+        "required": "no",
+        "name": "Номер телефона",
+        "code": "phone"
+    },
+    {
+        "checked": "yes",
         "code": "user",
         "required": "yes",
-        "checked": "yes",
         "name": "Логин"
     },
     {
-        "name": "Пароль",
-        "checked": "yes",
+        "code": "password",
         "required": "yes",
-        "code": "password"
+        "name": "Пароль",
+        "checked": "yes"
     },
     {
-        "name": "Полное имя",
-        "code": "full_name",
         "required": "yes",
+        "code": "full_name",
+        "name": "Полное имя",
         "checked": "yes"
     },
     {
@@ -102,9 +102,9 @@
         "checked": "yes"
     },
     {
-        "name": "Опции пользователя",
+        "checked": "yes",
         "required": "no",
-        "code": "options",
-        "checked": "yes"
+        "name": "Опции пользователя",
+        "code": "options"
     }
 ]
