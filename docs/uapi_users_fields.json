@@ -1,110 +1,110 @@
 [
     {
-        "code": "home_page",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
-        "checked": "yes",
-        "required": "no"
+        "code": "home_page",
+        "required": "no",
+        "checked": "yes"
     },
     {
+        "required": "no",
         "code": "birthday",
         "name": "Дата рождения",
-        "checked": "yes",
-        "required": "no"
-    },
-    {
-        "code": "icq",
-        "checked": "no",
-        "name": "ICQ номер",
-        "required": "no"
-    },
-    {
-        "code": "jabber",
-        "required": "no",
-        "checked": "no",
-        "name": "Jabber-идентификатор"
-    },
-    {
-        "checked": "yes",
-        "name": "Персонаж в игре (имя-сервер)",
-        "required": "no",
-        "code": "skype"
-    },
-    {
-        "name": "Yahoo-идентификатор",
-        "checked": "no",
-        "required": "no",
-        "code": "yahoo"
-    },
-    {
-        "required": "no",
-        "name": "Страна",
-        "checked": "no",
-        "code": "country"
-    },
-    {
-        "name": "Штат",
-        "checked": "no",
-        "required": "no",
-        "code": "state"
-    },
-    {
-        "name": "Город",
-        "checked": "no",
-        "required": "no",
-        "code": "city"
-    },
-    {
-        "name": "Пол пользователя",
-        "checked": "yes",
-        "required": "no",
-        "code": "gender"
-    },
-    {
-        "code": "signature",
-        "checked": "yes",
-        "name": "Подпись",
-        "required": "no"
-    },
-    {
-        "code": "avatar",
-        "required": "no",
-        "name": "Аватар",
         "checked": "yes"
     },
     {
-        "checked": "no",
-        "name": "Номер телефона",
+        "name": "ICQ номер",
+        "code": "icq",
         "required": "no",
-        "code": "phone"
+        "checked": "no"
     },
     {
-        "code": "user",
+        "checked": "no",
+        "required": "no",
+        "name": "Jabber-идентификатор",
+        "code": "jabber"
+    },
+    {
         "checked": "yes",
-        "name": "Логин",
-        "required": "yes"
+        "required": "no",
+        "code": "skype",
+        "name": "Персонаж в игре (имя-сервер)"
     },
     {
-        "code": "password",
+        "checked": "no",
+        "code": "yahoo",
+        "name": "Yahoo-идентификатор",
+        "required": "no"
+    },
+    {
+        "required": "no",
+        "code": "country",
+        "name": "Страна",
+        "checked": "no"
+    },
+    {
+        "required": "no",
+        "code": "state",
+        "name": "Штат",
+        "checked": "no"
+    },
+    {
+        "code": "city",
+        "name": "Город",
+        "required": "no",
+        "checked": "no"
+    },
+    {
+        "checked": "yes",
+        "code": "gender",
+        "name": "Пол пользователя",
+        "required": "no"
+    },
+    {
+        "name": "Подпись",
+        "code": "signature",
+        "required": "no",
+        "checked": "yes"
+    },
+    {
+        "checked": "yes",
+        "required": "no",
+        "code": "avatar",
+        "name": "Аватар"
+    },
+    {
+        "required": "no",
+        "code": "phone",
+        "name": "Номер телефона",
+        "checked": "no"
+    },
+    {
+        "required": "yes",
+        "name": "Логин",
+        "code": "user",
+        "checked": "yes"
+    },
+    {
         "required": "yes",
         "name": "Пароль",
+        "code": "password",
         "checked": "yes"
     },
     {
-        "code": "full_name",
-        "checked": "yes",
         "name": "Полное имя",
-        "required": "yes"
+        "code": "full_name",
+        "required": "yes",
+        "checked": "yes"
     },
     {
+        "required": "yes",
         "code": "email",
-        "checked": "yes",
         "name": "Email адрес",
-        "required": "yes"
+        "checked": "yes"
     },
     {
-        "required": "no",
-        "name": "Опции пользователя",
         "checked": "yes",
-        "code": "options"
+        "name": "Опции пользователя",
+        "code": "options",
+        "required": "no"
     }
 ]
