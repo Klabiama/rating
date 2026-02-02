@@ -1,39 +1,39 @@
 [
     {
+        "code": "home_page",
         "checked": "yes",
         "required": "no",
-        "code": "home_page",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)"
     },
     {
-        "name": "Дата рождения",
-        "code": "birthday",
         "checked": "yes",
-        "required": "no"
+        "required": "no",
+        "code": "birthday",
+        "name": "Дата рождения"
     },
     {
-        "code": "icq",
         "name": "ICQ номер",
         "required": "no",
-        "checked": "no"
+        "checked": "no",
+        "code": "icq"
     },
     {
-        "required": "no",
-        "checked": "no",
         "code": "jabber",
+        "checked": "no",
+        "required": "no",
         "name": "Jabber-идентификатор"
     },
     {
         "name": "Персонаж в игре (имя-сервер)",
-        "code": "skype",
+        "checked": "yes",
         "required": "no",
-        "checked": "yes"
+        "code": "skype"
     },
     {
         "name": "Yahoo-идентификатор",
-        "code": "yahoo",
         "required": "no",
-        "checked": "no"
+        "checked": "no",
+        "code": "yahoo"
     },
     {
         "required": "no",
@@ -42,22 +42,22 @@
         "name": "Страна"
     },
     {
-        "checked": "no",
+        "code": "state",
         "required": "no",
-        "name": "Штат",
-        "code": "state"
+        "checked": "no",
+        "name": "Штат"
     },
     {
-        "checked": "no",
         "required": "no",
+        "checked": "no",
         "code": "city",
         "name": "Город"
     },
     {
-        "code": "gender",
         "name": "Пол пользователя",
         "required": "no",
-        "checked": "yes"
+        "checked": "yes",
+        "code": "gender"
     },
     {
         "name": "Подпись",
@@ -72,39 +72,39 @@
         "name": "Аватар"
     },
     {
+        "code": "phone",
         "required": "no",
         "checked": "no",
-        "name": "Номер телефона",
-        "code": "phone"
+        "name": "Номер телефона"
     },
     {
-        "code": "user",
-        "name": "Логин",
         "required": "yes",
-        "checked": "yes"
+        "checked": "yes",
+        "code": "user",
+        "name": "Логин"
     },
     {
-        "name": "Пароль",
+        "checked": "yes",
+        "required": "yes",
         "code": "password",
+        "name": "Пароль"
+    },
+    {
+        "name": "Полное имя",
+        "code": "full_name",
         "checked": "yes",
         "required": "yes"
     },
     {
+        "name": "Email адрес",
         "required": "yes",
         "checked": "yes",
-        "name": "Полное имя",
-        "code": "full_name"
+        "code": "email"
     },
     {
-        "required": "yes",
+        "code": "options",
         "checked": "yes",
-        "code": "email",
-        "name": "Email адрес"
-    },
-    {
         "required": "no",
-        "checked": "yes",
-        "name": "Опции пользователя",
-        "code": "options"
+        "name": "Опции пользователя"
     }
 ]
