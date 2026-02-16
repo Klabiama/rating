@@ -1,7 +1,7 @@
 [
     {
-        "checked": "yes",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
+        "checked": "yes",
         "code": "home_page",
         "required": "no"
     },
@@ -18,16 +18,16 @@
         "required": "no"
     },
     {
-        "name": "Jabber-идентификатор",
-        "checked": "no",
         "required": "no",
-        "code": "jabber"
+        "code": "jabber",
+        "name": "Jabber-идентификатор",
+        "checked": "no"
     },
     {
-        "name": "Персонаж в игре (имя-сервер)",
-        "checked": "yes",
         "code": "skype",
-        "required": "no"
+        "required": "no",
+        "name": "Персонаж в игре (имя-сервер)",
+        "checked": "yes"
     },
     {
         "checked": "no",
@@ -36,16 +36,16 @@
         "code": "yahoo"
     },
     {
-        "checked": "no",
         "name": "Страна",
+        "checked": "no",
         "code": "country",
         "required": "no"
     },
     {
-        "checked": "no",
         "name": "Штат",
-        "required": "no",
-        "code": "state"
+        "checked": "no",
+        "code": "state",
+        "required": "no"
     },
     {
         "checked": "no",
@@ -60,10 +60,10 @@
         "name": "Пол пользователя"
     },
     {
-        "code": "signature",
         "required": "no",
-        "checked": "yes",
-        "name": "Подпись"
+        "code": "signature",
+        "name": "Подпись",
+        "checked": "yes"
     },
     {
         "name": "Аватар",
@@ -72,28 +72,28 @@
         "required": "no"
     },
     {
-        "required": "no",
         "code": "phone",
-        "name": "Номер телефона",
-        "checked": "no"
+        "required": "no",
+        "checked": "no",
+        "name": "Номер телефона"
     },
     {
-        "required": "yes",
         "code": "user",
+        "required": "yes",
         "name": "Логин",
         "checked": "yes"
     },
     {
-        "required": "yes",
-        "code": "password",
+        "name": "Пароль",
         "checked": "yes",
-        "name": "Пароль"
+        "code": "password",
+        "required": "yes"
     },
     {
-        "name": "Полное имя",
-        "checked": "yes",
+        "required": "yes",
         "code": "full_name",
-        "required": "yes"
+        "name": "Полное имя",
+        "checked": "yes"
     },
     {
         "required": "yes",
@@ -102,9 +102,9 @@
         "checked": "yes"
     },
     {
-        "required": "no",
-        "code": "options",
+        "checked": "yes",
         "name": "Опции пользователя",
-        "checked": "yes"
+        "code": "options",
+        "required": "no"
     }
 ]
