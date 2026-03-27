@@ -1,104 +1,48 @@
 {
-    "per_page": 50,
-    "page": 1,
     "users": [
         {
-            "uid": 1,
-            "rank": "Легенда вне Времени",
-            "city": "",
-            "group": {
-                "name": "Администратор",
-                "id": 4
-            },
-            "jabber": "",
-            "load_posts": 0,
-            "board_posts": 0,
-            "title": "Исследователь Вечнос",
-            "dir_posts": 0,
-            "last_visit_timestamp": 1774528214,
-            "state": "",
-            "full_name": "Вневременной Странник",
-            "avatar": "\/avatar\/00\/00\/00147289.jpg",
-            "forum_posts": 3,
-            "ip": "80.71.157.207",
-            "icq": "",
-            "video_posts": 0,
-            "skype": "",
-            "banned": "no",
-            "uID": "no",
-            "email_verified": "no",
-            "com_posts": 0,
             "user": "Странник",
+            "photo_posts": 0,
+            "home_page": "",
+            "avatar": "\/avatar\/00\/00\/00147289.jpg",
+            "dir_posts": 0,
+            "status": "offline",
+            "icq": "",
+            "jabber": "",
+            "uid": 1,
+            "load_posts": 0,
+            "skype": "",
+            "stuff_posts": 0,
+            "banrate": 0,
+            "city": "",
+            "board_posts": 0,
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "uID": "no",
+            "group": {
+                "id": 4,
+                "name": "Администратор"
+            },
+            "rank": "Легенда вне Времени",
             "birthday": "",
-            "email": "trialportal@inbox.ru",
-            "yahoo": "",
+            "video_posts": 0,
+            "blog_posts": 0,
+            "title": "Исследователь Вечнос",
+            "com_posts": 0,
+            "full_name": "Вневременной Странник",
+            "reg_date_timestamp": 1763562704,
+            "banned": "no",
+            "publ_posts": 0,
             "options": [
                 {
                     "code": 1,
                     "name": "Скрывать email адрес"
                 },
                 {
-                    "name": "Принимать письма от других пользователей сайта",
-                    "code": 2
-                },
-                {
-                    "code": 5,
-                    "name": "Получать почтовые извещения о личных сообщениях"
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "news_posts": 0,
-            "country": "",
-            "signature": "Все готово, можно начинать. Но не забывай... мы следим за тобой.",
-            "reg_date": "2025-11-19 17:31",
-            "phone": "",
-            "blog_posts": 0,
-            "status": "offline",
-            "home_page": "",
-            "banrate": 0,
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "stuff_posts": 0,
-            "reg_date_timestamp": 1763562704,
-            "publ_posts": 0,
-            "last_visit": "2026-03-26 15:30",
-            "photo_posts": 0
-        },
-        {
-            "city": "",
-            "group": {
-                "id": 6,
-                "name": "Разработчик"
-            },
-            "rank": "Новобранец",
-            "last_visit_timestamp": 1770828274,
-            "state": "",
-            "dir_posts": 0,
-            "full_name": "Джаден",
-            "jabber": "",
-            "title": "",
-            "board_posts": 0,
-            "load_posts": 1,
-            "uid": 2,
-            "reg_date": "2025-12-10 21:11",
-            "phone": "",
-            "signature": "•●☽ <b>Klabiama<\/b> - автор и разработчик TrialPortal. <br \/> •●☽ Глава гильдии <b><a class=\"link\" href=\"https:\/\/tanagar.carrd.co\/\" rel=\"nofollow\" target=\"_blank\">Адепты Танагара<\/a><\/b>. <i>Набор открыт<\/i>. <br \/> •●☽ <b>Персонажи:<\/b> друиды Фантомиэль и Тентара, жрица Шайла. <br \/> <a class=\"link\" href=\"https:\/\/discord.gg\/rMrucgTxAg\" rel=\"nofollow\" target=\"_blank\">Мой Discord-сервер<\/a>.",
-            "country": "",
-            "blog_posts": 0,
-            "news_posts": 1,
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "name": "Принимать письма от других пользователей сайта",
-                    "code": 2
+                    "code": 2,
+                    "name": "Принимать письма от других пользователей сайта"
                 },
                 {
                     "code": 5,
@@ -109,388 +53,49 @@
                     "name": "Скрывать телефон"
                 }
             ],
+            "forum_posts": 3,
+            "ip": "80.71.157.207",
+            "state": "",
+            "last_visit_timestamp": 1774528214,
+            "reg_date": "2025-11-19 17:31",
             "yahoo": "",
-            "reg_date_timestamp": 1765390271,
-            "publ_posts": 16,
-            "stuff_posts": 0,
-            "last_visit": "2026-02-11 19:44",
-            "photo_posts": 1,
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/goldrinn\/тентара\/",
+            "email": "trialportal@inbox.ru",
+            "email_verified": "no",
+            "signature": "Все готово, можно начинать. Но не забывай... мы следим за тобой.",
+            "phone": "",
+            "country": "",
+            "news_posts": 0,
+            "last_visit": "2026-03-26 15:30"
+        },
+        {
             "status": "offline",
+            "icq": "Klabiama#2689",
+            "jabber": "",
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/goldrinn\/тентара\/",
+            "user": "Фантомиэль",
+            "photo_posts": 1,
+            "dir_posts": 0,
+            "avatar": "\/avatar\/00\/00\/00243087.png",
+            "uID": "no",
             "gender": {
                 "name": "Женский",
                 "code": 2
             },
-            "banrate": 0,
-            "banned": "no",
+            "video_posts": 1,
+            "blog_posts": 0,
+            "rank": "Новобранец",
+            "group": {
+                "id": 6,
+                "name": "Разработчик"
+            },
+            "birthday": "",
+            "stuff_posts": 0,
+            "load_posts": 1,
             "skype": "Тентара-Голдринн",
-            "video_posts": 1,
-            "uID": "no",
-            "ip": "45.15.167.219",
-            "forum_posts": 6,
-            "avatar": "\/avatar\/00\/00\/00243087.png",
-            "icq": "Klabiama#2689",
-            "com_posts": 0,
-            "user": "Фантомиэль",
-            "birthday": "",
-            "email": "klabiama@mail.ru",
-            "email_verified": "no"
-        },
-        {
-            "country": "",
-            "reg_date": "2026-01-17 21:40",
-            "signature": "",
-            "phone": "",
-            "blog_posts": 0,
-            "yahoo": "",
-            "options": [
-                {
-                    "code": 1,
-                    "name": "Скрывать email адрес"
-                },
-                {
-                    "code": 8,
-                    "name": "Скрывать телефон"
-                }
-            ],
-            "news_posts": 0,
-            "reg_date_timestamp": 1768675230,
-            "stuff_posts": 0,
-            "publ_posts": 0,
-            "last_visit": "2026-01-25 10:45",
-            "photo_posts": 0,
-            "home_page": "",
-            "status": "offline",
+            "uid": 2,
             "banrate": 0,
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "skype": "Трумпин",
-            "video_posts": 0,
-            "banned": "no",
-            "uID": "no",
-            "avatar": "\/avatar\/00\/00\/00331151.png",
-            "forum_posts": 0,
-            "ip": "194.180.189.116",
-            "icq": "",
-            "com_posts": 0,
-            "email": "Step.tru@ya.ru",
-            "birthday": "2001-05-31",
-            "user": "Trumpin",
-            "email_verified": "no",
             "city": "",
-            "group": {
-                "name": "Модератор",
-                "id": 3
-            },
-            "rank": "Новобранец",
-            "dir_posts": 0,
-            "last_visit_timestamp": 1769327151,
-            "state": "",
-            "full_name": "Трумпин",
-            "jabber": "",
-            "load_posts": 0,
             "board_posts": 0,
-            "title": "",
-            "uid": 3
-        },
-        {
-            "uID": "no",
-            "banned": "no",
-            "skype": "Феннеса-ВечнаяПесня",
-            "video_posts": 1,
-            "icq": "",
-            "ip": "185.215.60.104",
-            "avatar": "\/avatar\/00\/00\/00472209.png",
-            "forum_posts": 0,
-            "email": "r.shadowbreeze@list.ru",
-            "birthday": "2008-06-30",
-            "user": "Vrazboynik",
-            "com_posts": 0,
-            "email_verified": "no",
-            "blog_posts": 0,
-            "phone": "",
-            "reg_date": "2026-01-18 00:05",
-            "signature": "",
-            "country": "",
-            "news_posts": 0,
-            "yahoo": "",
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "code": 8,
-                    "name": "Скрывать телефон"
-                }
-            ],
-            "last_visit": "2026-03-22 13:07",
-            "photo_posts": 0,
-            "publ_posts": 0,
-            "reg_date_timestamp": 1768683925,
-            "stuff_posts": 0,
-            "gender": {
-                "code": 1,
-                "name": "Мужской"
-            },
-            "banrate": 0,
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/eversong\/феннеса\/",
-            "status": "offline",
-            "uid": 4,
-            "group": {
-                "name": "Ментор",
-                "id": 5
-            },
-            "city": "",
-            "rank": "Новобранец",
-            "full_name": "-=V=-",
-            "state": "",
-            "last_visit_timestamp": 1774174040,
-            "dir_posts": 0,
-            "board_posts": 0,
-            "title": "",
-            "load_posts": 0,
-            "jabber": ""
-        },
-        {
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/deathweaver\/лоренс",
-            "status": "offline",
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "banrate": 0,
-            "stuff_posts": 0,
-            "reg_date_timestamp": 1768686637,
-            "publ_posts": 0,
-            "last_visit": "2026-03-22 15:38",
-            "photo_posts": 0,
-            "news_posts": 0,
-            "options": [
-                {
-                    "code": 1,
-                    "name": "Скрывать email адрес"
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "yahoo": "",
-            "phone": "",
-            "reg_date": "2026-01-18 00:50",
-            "signature": "",
-            "country": "",
-            "blog_posts": 0,
-            "email_verified": "no",
-            "com_posts": 0,
-            "email": "Reidorr@mail.ru",
-            "birthday": "",
-            "user": "Reidor",
-            "ip": "45.15.113.241",
-            "avatar": "\/avatar\/00\/00\/00550019.png",
-            "forum_posts": 0,
-            "icq": "",
-            "banned": "no",
-            "skype": "Лоренс-ТкачСмерти",
-            "video_posts": 0,
-            "uID": "no",
-            "jabber": "",
-            "board_posts": 0,
-            "title": "",
-            "load_posts": 0,
-            "state": "",
-            "last_visit_timestamp": 1774183107,
-            "dir_posts": 0,
-            "full_name": "Reidor",
-            "rank": "Новобранец",
-            "city": "",
-            "group": {
-                "name": "Редактор",
-                "id": 251
-            },
-            "uid": 5
-        },
-        {
-            "email": "segan777@mail.ru",
-            "birthday": "1997-09-09",
-            "user": "Звераго",
-            "com_posts": 0,
-            "email_verified": "no",
-            "uID": "no",
-            "skype": "Амберис-Черный шрам",
-            "video_posts": 0,
-            "banned": "no",
-            "icq": "",
-            "avatar": "\/avatar\/00\/00\/00649740.png",
-            "forum_posts": 0,
-            "ip": "88.80.63.61",
-            "last_visit": "2026-03-26 13:56",
-            "photo_posts": 0,
-            "reg_date_timestamp": 1768725041,
-            "stuff_posts": 0,
-            "publ_posts": 1,
-            "banrate": 0,
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "status": "offline",
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/blackscar\/амберис\/",
-            "blog_posts": 0,
-            "country": "",
-            "phone": "",
-            "reg_date": "2026-01-18 11:30",
-            "signature": "",
-            "options": [
-                {
-                    "code": 1,
-                    "name": "Скрывать email адрес"
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "yahoo": "",
-            "news_posts": 0,
-            "uid": 6,
-            "full_name": "Звераго",
-            "last_visit_timestamp": 1774522602,
-            "dir_posts": 0,
-            "state": "",
-            "load_posts": 0,
-            "board_posts": 0,
-            "title": "",
-            "jabber": "",
-            "group": {
-                "id": 5,
-                "name": "Ментор"
-            },
-            "city": "",
-            "rank": "Новобранец"
-        },
-        {
-            "uid": 7,
-            "city": "",
-            "group": {
-                "name": "Заблокированные",
-                "id": 255
-            },
-            "rank": "Новобранец",
-            "last_visit_timestamp": 1768755072,
-            "state": "",
-            "dir_posts": 0,
-            "full_name": "Дмитрий",
-            "jabber": "",
-            "load_posts": 0,
-            "title": "",
-            "board_posts": 0,
-            "video_posts": 0,
-            "skype": "",
-            "banned": "no",
-            "uID": "no",
-            "avatar": "",
-            "forum_posts": 0,
-            "ip": "45.94.231.69",
-            "icq": "",
-            "com_posts": 0,
-            "email": "terrance.chandler.91@mail.ru",
-            "birthday": "1993-04-08",
-            "user": "DmitriyMorjov",
-            "email_verified": "no",
-            "country": "",
-            "phone": "",
-            "reg_date": "2026-01-18 16:53",
-            "signature": "",
-            "blog_posts": 0,
-            "yahoo": "",
-            "options": [
-                {
-                    "code": 1,
-                    "name": "Скрывать email адрес"
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "news_posts": 0,
-            "reg_date_timestamp": 1768744400,
-            "publ_posts": 0,
-            "stuff_posts": 0,
-            "last_visit": "2026-01-18 19:51",
-            "photo_posts": 0,
-            "status": "offline",
-            "home_page": "",
-            "banrate": 0,
-            "gender": {
-                "code": 1,
-                "name": "Мужской"
-            }
-        },
-        {
-            "stuff_posts": 0,
-            "reg_date_timestamp": 1768755793,
-            "publ_posts": 0,
-            "photo_posts": 0,
-            "last_visit": "2026-01-29 18:55",
-            "status": "offline",
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/eversong\/Друидишна",
-            "banrate": 0,
-            "gender": {
-                "code": 1,
-                "name": "Мужской"
-            },
-            "country": "",
-            "reg_date": "2026-01-18 20:03",
-            "phone": "",
-            "signature": "",
-            "blog_posts": 0,
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "yahoo": "",
-            "news_posts": 0,
-            "com_posts": 0,
-            "user": "Друидишна",
-            "birthday": "2009-02-24",
-            "email": "Devil.Dark.Lord@yandex.ru",
-            "email_verified": "no",
-            "video_posts": 0,
-            "skype": "Друидишна-Вечная Песня",
-            "banned": "no",
-            "uID": "no",
-            "avatar": "\/avatar\/00\/00\/01385669.png",
-            "forum_posts": 0,
-            "ip": "46.164.240.188",
-            "icq": "",
-            "last_visit_timestamp": 1769702159,
-            "state": "",
-            "dir_posts": 0,
-            "full_name": "Друидишна",
-            "jabber": "",
-            "load_posts": 0,
-            "board_posts": 0,
-            "title": "",
-            "city": "",
-            "group": {
-                "name": "Ментор",
-                "id": 5
-            },
-            "rank": "Новобранец",
-            "uid": 13
-        },
-        {
             "options": [
                 {
                     "code": 1,
@@ -503,401 +108,191 @@
                 {
                     "name": "Получать почтовые извещения о личных сообщениях",
                     "code": 5
-                }
-            ],
-            "yahoo": "",
-            "news_posts": 0,
-            "country": "",
-            "reg_date": "2026-01-18 16:19",
-            "signature": "",
-            "phone": "",
-            "blog_posts": 0,
-            "home_page": "",
-            "status": "offline",
-            "banrate": 0,
-            "gender": {
-                "code": 1,
-                "name": "Мужской"
-            },
-            "reg_date_timestamp": 1768742366,
-            "publ_posts": 0,
-            "stuff_posts": 0,
-            "photo_posts": 0,
-            "last_visit": "2026-02-03 12:17",
-            "avatar": "",
-            "forum_posts": 0,
-            "ip": "178.49.226.16",
-            "icq": "",
-            "video_posts": 0,
-            "skype": "",
-            "banned": "no",
-            "uID": "no",
-            "email_verified": "no",
-            "com_posts": 0,
-            "birthday": "",
-            "email": "trialportal@inbox.ru",
-            "user": "TheTraveler",
-            "rank": "Новобранец",
-            "city": "",
-            "group": {
-                "id": 7,
-                "name": "Бот"
-            },
-            "jabber": "",
-            "load_posts": 0,
-            "title": "",
-            "board_posts": 0,
-            "last_visit_timestamp": 1770110237,
-            "dir_posts": 0,
-            "state": "",
-            "full_name": "",
-            "uid": 24
-        },
-        {
-            "last_visit_timestamp": 1768938576,
-            "dir_posts": 0,
-            "state": "",
-            "full_name": "Eduard",
-            "jabber": "",
-            "title": "",
-            "board_posts": 0,
-            "load_posts": 0,
-            "city": "",
-            "group": {
-                "name": "Новичок",
-                "id": 1
-            },
-            "rank": "Новобранец",
-            "uid": 27,
-            "reg_date_timestamp": 1768852026,
-            "stuff_posts": 0,
-            "publ_posts": 0,
-            "photo_posts": 0,
-            "last_visit": "2026-01-20 22:49",
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/azuregos\/Фаурним",
-            "status": "offline",
-            "gender": {
-                "code": 1,
-                "name": "Мужской"
-            },
-            "banrate": 0,
-            "reg_date": "2026-01-19 22:47",
-            "phone": "",
-            "signature": "Триал с 2011 года, но после бана крымских аккаунтов с 2014",
-            "country": "",
-            "blog_posts": 0,
-            "news_posts": 0,
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "name": "Принимать письма от других пользователей сайта",
-                    "code": 2
                 },
                 {
                     "name": "Скрывать телефон",
                     "code": 8
                 }
             ],
-            "yahoo": "",
-            "com_posts": 0,
-            "email": "frw1999@mail.ru",
-            "birthday": "1999-02-02",
-            "user": "Faurnim",
-            "email_verified": "no",
+            "forum_posts": 6,
+            "reg_date": "2025-12-10 21:11",
+            "state": "",
+            "ip": "45.15.167.219",
+            "last_visit_timestamp": 1770828274,
+            "full_name": "Джаден",
+            "reg_date_timestamp": 1765390271,
             "banned": "no",
-            "video_posts": 0,
-            "skype": "Фаурним-Азурегос",
-            "uID": "no",
-            "ip": "45.144.31.163",
-            "avatar": "\/avatar\/00\/00\/02716592.jpg",
-            "forum_posts": 0,
-            "icq": ""
+            "title": "",
+            "com_posts": 0,
+            "publ_posts": 16,
+            "phone": "",
+            "email_verified": "no",
+            "signature": "•●☽ <b>Klabiama<\/b> - автор и разработчик TrialPortal. <br \/> •●☽ Глава гильдии <b><a class=\"link\" href=\"https:\/\/tanagar.carrd.co\/\" rel=\"nofollow\" target=\"_blank\">Адепты Танагара<\/a><\/b>. <i>Набор открыт<\/i>. <br \/> •●☽ <b>Персонажи:<\/b> друиды Фантомиэль и Тентара, жрица Шайла. <br \/> <a class=\"link\" href=\"https:\/\/discord.gg\/rMrucgTxAg\" rel=\"nofollow\" target=\"_blank\">Мой Discord-сервер<\/a>.",
+            "country": "",
+            "last_visit": "2026-02-11 19:44",
+            "news_posts": 1,
+            "yahoo": "",
+            "email": "klabiama@mail.ru"
         },
         {
-            "email_verified": "no",
-            "com_posts": 0,
-            "birthday": "1990-05-03",
-            "email": "maxim_makarov030590@mail.ru",
-            "user": "Waingro1990",
-            "ip": "95.24.105.48",
-            "forum_posts": 0,
-            "avatar": "\/avatar\/00\/00\/05138170.jpg",
-            "icq": "",
+            "full_name": "Трумпин",
             "banned": "no",
-            "skype": "Джелири",
-            "video_posts": 0,
-            "uID": "no",
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/gordunni\/джелири\/",
-            "status": "offline",
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "banrate": 0,
-            "stuff_posts": 0,
-            "reg_date_timestamp": 1769926210,
-            "publ_posts": 0,
-            "photo_posts": 0,
-            "last_visit": "2026-03-21 09:46",
-            "news_posts": 0,
-            "yahoo": "",
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "reg_date": "2026-02-01 09:10",
-            "phone": "",
-            "signature": "",
-            "country": "",
-            "blog_posts": 0,
-            "uid": 51,
-            "jabber": "",
-            "board_posts": 0,
+            "reg_date_timestamp": 1768675230,
             "title": "",
-            "load_posts": 0,
-            "last_visit_timestamp": 1774075595,
-            "dir_posts": 0,
-            "state": "",
-            "full_name": "Maxim",
-            "rank": "Новобранец",
-            "city": "",
-            "group": {
-                "name": "Новичок",
-                "id": 1
-            }
-        },
-        {
-            "signature": "",
-            "reg_date": "2026-01-23 23:38",
-            "phone": "",
-            "country": "",
-            "blog_posts": 0,
-            "news_posts": 0,
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "yahoo": "",
-            "reg_date_timestamp": 1769200680,
-            "publ_posts": 0,
-            "stuff_posts": 0,
-            "photo_posts": 0,
-            "last_visit": "2026-02-11 22:13",
-            "status": "offline",
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/galakrond\/уиггинс\/",
-            "gender": {
-                "code": 1,
-                "name": "Мужской"
-            },
-            "banrate": 0,
-            "banned": "no",
-            "skype": "Уиггинс-Галакронд",
-            "video_posts": 0,
-            "uID": "no",
-            "ip": "193.168.178.66",
-            "avatar": "",
-            "forum_posts": 0,
-            "icq": "",
             "com_posts": 0,
-            "email": "bucenko66@gmail.com",
-            "birthday": "2003-04-03",
-            "user": "Sedogriv",
-            "email_verified": "no",
-            "city": "",
-            "group": {
-                "id": 1,
-                "name": "Новичок"
-            },
-            "rank": "Новобранец",
-            "last_visit_timestamp": 1770837180,
-            "state": "",
-            "dir_posts": 0,
-            "full_name": "Sedogriv",
-            "jabber": "",
-            "title": "",
-            "board_posts": 0,
-            "load_posts": 0,
-            "uid": 35
-        },
-        {
-            "uid": 56,
-            "group": {
-                "id": 1,
-                "name": "Новичок"
-            },
-            "city": "",
-            "rank": "Новобранец",
-            "full_name": "Рик",
-            "last_visit_timestamp": 1770119350,
-            "dir_posts": 0,
-            "state": "",
-            "title": "",
-            "board_posts": 0,
-            "load_posts": 0,
-            "jabber": "",
-            "uID": "no",
-            "banned": "no",
-            "skype": "Рик-Борейскаятундра",
-            "video_posts": 0,
-            "icq": "Littleshadow",
-            "ip": "178.155.116.142",
-            "avatar": "\/avatar\/00\/00\/05665368.png",
-            "forum_posts": 0,
-            "birthday": "1995-04-21",
-            "email": "realstalker.2010@mail.ru",
-            "user": "Рик",
-            "com_posts": 0,
-            "email_verified": "no",
-            "blog_posts": 0,
-            "phone": "",
-            "reg_date": "2026-02-03 13:42",
-            "signature": "старый гном триал, любитель пве активностей на 20м уровне в World of warcraft",
-            "country": "",
-            "news_posts": 0,
-            "yahoo": "",
-            "options": [
-                {
-                    "name": "Скрывать email адрес",
-                    "code": 1
-                },
-                {
-                    "name": "Скрывать телефон",
-                    "code": 8
-                }
-            ],
-            "last_visit": "2026-02-03 14:49",
-            "photo_posts": 0,
             "publ_posts": 0,
-            "reg_date_timestamp": 1770115348,
-            "stuff_posts": 0,
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "banrate": 0,
-            "status": "offline",
-            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/borean-tundra\/рик\/"
-        },
-        {
-            "uid": 72,
-            "full_name": "",
-            "state": "",
-            "last_visit_timestamp": 0,
-            "dir_posts": 0,
-            "load_posts": 0,
-            "board_posts": 0,
-            "title": "",
-            "jabber": "",
-            "group": {
-                "name": "Новичок",
-                "id": 1
-            },
-            "city": "",
-            "rank": "Новобранец",
-            "birthday": "",
-            "email": "trialportal@inbox.ru",
-            "user": "TheTraveler4294",
-            "com_posts": 0,
-            "email_verified": "yes",
-            "uID": "yes",
-            "skype": "",
-            "video_posts": 0,
-            "banned": "no",
-            "icq": "",
-            "forum_posts": 0,
-            "avatar": "",
-            "ip": "178.49.226.16",
-            "last_visit": "1970-01-01 03:00",
-            "photo_posts": 0,
-            "stuff_posts": 0,
-            "reg_date_timestamp": 1768742366,
-            "publ_posts": 0,
-            "banrate": 0,
-            "gender": {
-                "name": "Мужской",
-                "code": 1
-            },
-            "status": "tokenOwner",
-            "home_page": "",
-            "blog_posts": 0,
-            "country": "",
-            "reg_date": "2026-01-18 16:19",
-            "signature": "",
-            "phone": "",
-            "yahoo": "",
             "options": [
                 {
                     "code": 1,
                     "name": "Скрывать email адрес"
                 },
                 {
-                    "name": "Принимать письма от других пользователей сайта",
-                    "code": 2
-                },
-                {
-                    "code": 5,
-                    "name": "Получать почтовые извещения о личных сообщениях"
+                    "name": "Скрывать телефон",
+                    "code": 8
                 }
             ],
-            "news_posts": 0
-        },
-        {
-            "uid": 65,
-            "board_posts": 0,
-            "title": "",
-            "load_posts": 0,
-            "jabber": "",
-            "full_name": "Вячеслав Михайлович",
-            "dir_posts": 0,
-            "last_visit_timestamp": 1771546115,
+            "forum_posts": 0,
+            "reg_date": "2026-01-17 21:40",
             "state": "",
+            "ip": "194.180.189.116",
+            "last_visit_timestamp": 1769327151,
+            "yahoo": "",
+            "email": "Step.tru@ya.ru",
+            "phone": "",
+            "email_verified": "no",
+            "signature": "",
+            "country": "",
+            "news_posts": 0,
+            "last_visit": "2026-01-25 10:45",
+            "home_page": "",
+            "user": "Trumpin",
+            "photo_posts": 0,
+            "avatar": "\/avatar\/00\/00\/00331151.png",
+            "dir_posts": 0,
+            "status": "offline",
+            "icq": "",
+            "jabber": "",
+            "stuff_posts": 0,
+            "uid": 3,
+            "load_posts": 0,
+            "skype": "Трумпин",
+            "banrate": 0,
+            "city": "",
+            "board_posts": 0,
+            "uID": "no",
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "video_posts": 0,
+            "blog_posts": 0,
             "rank": "Новобранец",
             "group": {
-                "id": 1,
-                "name": "Новичок"
+                "id": 3,
+                "name": "Модератор"
             },
-            "city": "",
-            "email_verified": "no",
-            "birthday": "",
-            "email": "vyacheslav.4min@yandex.ru",
-            "user": "4min",
-            "com_posts": 1,
+            "birthday": "2001-05-31"
+        },
+        {
+            "jabber": "",
+            "status": "offline",
             "icq": "",
-            "ip": "217.8.127.129",
-            "avatar": "",
-            "forum_posts": 0,
-            "uID": "no",
-            "banned": "no",
-            "video_posts": 0,
-            "skype": "",
+            "dir_posts": 0,
+            "avatar": "\/avatar\/00\/00\/00472209.png",
+            "user": "Vrazboynik",
+            "photo_posts": 0,
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/eversong\/феннеса\/",
+            "group": {
+                "name": "Ментор",
+                "id": 5
+            },
+            "rank": "Новобранец",
+            "birthday": "2008-06-30",
+            "video_posts": 1,
+            "blog_posts": 0,
             "gender": {
                 "name": "Мужской",
                 "code": 1
             },
+            "uID": "no",
             "banrate": 0,
-            "status": "offline",
-            "home_page": "",
-            "photo_posts": 0,
-            "last_visit": "2026-02-20 03:08",
-            "reg_date_timestamp": 1771217429,
+            "city": "",
+            "board_posts": 0,
+            "load_posts": 0,
+            "uid": 4,
+            "skype": "Феннеса-ВечнаяПесня",
             "stuff_posts": 0,
+            "ip": "185.215.60.104",
+            "state": "",
+            "last_visit_timestamp": 1774174040,
+            "reg_date": "2026-01-18 00:05",
+            "options": [
+                {
+                    "name": "Скрывать email адрес",
+                    "code": 1
+                },
+                {
+                    "code": 8,
+                    "name": "Скрывать телефон"
+                }
+            ],
+            "forum_posts": 0,
             "publ_posts": 0,
+            "com_posts": 0,
+            "title": "",
+            "full_name": "-=V=-",
+            "reg_date_timestamp": 1768683925,
+            "banned": "no",
+            "country": "",
             "news_posts": 0,
+            "last_visit": "2026-03-22 13:07",
+            "signature": "",
+            "email_verified": "no",
+            "phone": "",
+            "yahoo": "",
+            "email": "r.shadowbreeze@list.ru"
+        },
+        {
+            "group": {
+                "id": 251,
+                "name": "Редактор"
+            },
+            "rank": "Новобранец",
+            "birthday": "",
+            "video_posts": 0,
+            "blog_posts": 0,
+            "gender": {
+                "name": "Мужской",
+                "code": 1
+            },
+            "uID": "no",
+            "banrate": 0,
+            "board_posts": 0,
+            "city": "",
+            "load_posts": 0,
+            "uid": 5,
+            "skype": "Лоренс-ТкачСмерти",
+            "stuff_posts": 0,
+            "jabber": "",
+            "status": "offline",
+            "icq": "",
+            "avatar": "\/avatar\/00\/00\/00550019.png",
+            "dir_posts": 0,
+            "user": "Reidor",
+            "photo_posts": 0,
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/deathweaver\/лоренс",
+            "country": "",
+            "news_posts": 0,
+            "last_visit": "2026-03-22 15:38",
+            "signature": "",
+            "email_verified": "no",
+            "phone": "",
+            "yahoo": "",
+            "email": "Reidorr@mail.ru",
+            "state": "",
+            "ip": "45.15.113.241",
+            "last_visit_timestamp": 1774183107,
+            "reg_date": "2026-01-18 00:50",
             "options": [
                 {
                     "code": 1,
@@ -908,33 +303,19 @@
                     "name": "Скрывать телефон"
                 }
             ],
-            "yahoo": "",
-            "blog_posts": 0,
-            "phone": "",
-            "reg_date": "2026-02-16 07:50",
-            "signature": "",
-            "country": ""
+            "forum_posts": 0,
+            "publ_posts": 0,
+            "com_posts": 0,
+            "title": "",
+            "full_name": "Reidor",
+            "banned": "no",
+            "reg_date_timestamp": 1768686637
         },
         {
-            "video_posts": 0,
-            "skype": "",
-            "banned": "no",
-            "uID": "no",
-            "avatar": "",
-            "forum_posts": 0,
-            "ip": "5.253.103.179",
-            "icq": "Saltuha#2378",
-            "com_posts": 0,
-            "user": "saltuhatv",
-            "birthday": "1995-07-15",
-            "email": "saltuhatv@mail.ru",
-            "email_verified": "no",
-            "country": "",
-            "phone": "",
-            "reg_date": "2026-03-05 00:07",
-            "signature": "",
-            "blog_posts": 0,
-            "yahoo": "",
+            "state": "",
+            "ip": "88.80.63.61",
+            "last_visit_timestamp": 1774522602,
+            "reg_date": "2026-01-18 11:30",
             "options": [
                 {
                     "name": "Скрывать email адрес",
@@ -945,37 +326,656 @@
                     "code": 8
                 }
             ],
+            "forum_posts": 0,
+            "publ_posts": 1,
+            "com_posts": 0,
+            "title": "",
+            "full_name": "Звераго",
+            "banned": "no",
+            "reg_date_timestamp": 1768725041,
+            "country": "",
             "news_posts": 0,
-            "reg_date_timestamp": 1772658470,
-            "stuff_posts": 0,
-            "publ_posts": 0,
-            "last_visit": "2026-03-05 09:10",
-            "photo_posts": 0,
-            "home_page": "",
+            "last_visit": "2026-03-26 13:56",
+            "signature": "",
+            "email_verified": "no",
+            "phone": "",
+            "yahoo": "",
+            "email": "segan777@mail.ru",
+            "jabber": "",
             "status": "offline",
-            "banrate": 0,
+            "icq": "",
+            "dir_posts": 0,
+            "avatar": "\/avatar\/00\/00\/00649740.png",
+            "user": "Звераго",
+            "photo_posts": 0,
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/blackscar\/амберис\/",
+            "rank": "Новобранец",
+            "group": {
+                "name": "Ментор",
+                "id": 5
+            },
+            "birthday": "1997-09-09",
+            "video_posts": 0,
+            "blog_posts": 0,
             "gender": {
                 "code": 1,
                 "name": "Мужской"
             },
-            "uid": 70,
+            "uID": "no",
+            "banrate": 0,
             "city": "",
+            "board_posts": 0,
+            "load_posts": 0,
+            "skype": "Амберис-Черный шрам",
+            "uid": 6,
+            "stuff_posts": 0
+        },
+        {
+            "stuff_posts": 0,
+            "load_posts": 0,
+            "skype": "",
+            "uid": 7,
+            "banrate": 0,
+            "city": "",
+            "board_posts": 0,
+            "uID": "no",
+            "gender": {
+                "name": "Мужской",
+                "code": 1
+            },
+            "video_posts": 0,
+            "blog_posts": 0,
+            "group": {
+                "id": 255,
+                "name": "Заблокированные"
+            },
+            "rank": "Новобранец",
+            "birthday": "1993-04-08",
+            "home_page": "",
+            "user": "DmitriyMorjov",
+            "photo_posts": 0,
+            "avatar": "",
+            "dir_posts": 0,
+            "status": "offline",
+            "icq": "",
+            "jabber": "",
+            "yahoo": "",
+            "email": "terrance.chandler.91@mail.ru",
+            "phone": "",
+            "signature": "",
+            "email_verified": "no",
+            "country": "",
+            "last_visit": "2026-01-18 19:51",
+            "news_posts": 0,
+            "full_name": "Дмитрий",
+            "banned": "no",
+            "reg_date_timestamp": 1768744400,
+            "title": "",
+            "com_posts": 0,
+            "publ_posts": 0,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "code": 8,
+                    "name": "Скрывать телефон"
+                }
+            ],
+            "forum_posts": 0,
+            "reg_date": "2026-01-18 16:53",
+            "ip": "45.94.231.69",
+            "state": "",
+            "last_visit_timestamp": 1768755072
+        },
+        {
+            "jabber": "",
+            "status": "offline",
+            "icq": "",
+            "dir_posts": 0,
+            "avatar": "\/avatar\/00\/00\/01385669.png",
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/eversong\/Друидишна",
+            "user": "Друидишна",
+            "photo_posts": 0,
+            "video_posts": 0,
+            "blog_posts": 0,
+            "rank": "Новобранец",
+            "group": {
+                "name": "Ментор",
+                "id": 5
+            },
+            "birthday": "2009-02-24",
+            "uID": "no",
+            "gender": {
+                "name": "Мужской",
+                "code": 1
+            },
+            "banrate": 0,
+            "city": "",
+            "board_posts": 0,
+            "stuff_posts": 0,
+            "uid": 13,
+            "load_posts": 0,
+            "skype": "Друидишна-Вечная Песня",
+            "reg_date": "2026-01-18 20:03",
+            "state": "",
+            "ip": "46.164.240.188",
+            "last_visit_timestamp": 1769702159,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "name": "Скрывать телефон",
+                    "code": 8
+                }
+            ],
+            "forum_posts": 0,
+            "publ_posts": 0,
+            "full_name": "Друидишна",
+            "reg_date_timestamp": 1768755793,
+            "banned": "no",
+            "title": "",
+            "com_posts": 0,
+            "country": "",
+            "last_visit": "2026-01-29 18:55",
+            "news_posts": 0,
+            "phone": "",
+            "email_verified": "no",
+            "signature": "",
+            "yahoo": "",
+            "email": "Devil.Dark.Lord@yandex.ru"
+        },
+        {
+            "email": "trialportal@inbox.ru",
+            "yahoo": "",
+            "phone": "",
+            "signature": "",
+            "email_verified": "no",
+            "last_visit": "2026-02-03 12:17",
+            "news_posts": 0,
+            "country": "",
+            "reg_date_timestamp": 1768742366,
+            "banned": "no",
+            "full_name": "",
+            "com_posts": 0,
+            "title": "",
+            "publ_posts": 0,
+            "forum_posts": 0,
+            "options": [
+                {
+                    "name": "Скрывать email адрес",
+                    "code": 1
+                },
+                {
+                    "code": 2,
+                    "name": "Принимать письма от других пользователей сайта"
+                },
+                {
+                    "name": "Получать почтовые извещения о личных сообщениях",
+                    "code": 5
+                }
+            ],
+            "reg_date": "2026-01-18 16:19",
+            "last_visit_timestamp": 1770110237,
+            "state": "",
+            "ip": "178.49.226.16",
+            "stuff_posts": 0,
+            "load_posts": 0,
+            "uid": 24,
+            "skype": "",
+            "board_posts": 0,
+            "city": "",
+            "banrate": 0,
+            "uID": "no",
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "blog_posts": 0,
+            "video_posts": 0,
+            "birthday": "",
+            "group": {
+                "name": "Бот",
+                "id": 7
+            },
+            "rank": "Новобранец",
+            "home_page": "",
+            "photo_posts": 0,
+            "user": "TheTraveler",
+            "dir_posts": 0,
+            "avatar": "",
+            "icq": "",
+            "status": "offline",
+            "jabber": ""
+        },
+        {
+            "email": "frw1999@mail.ru",
+            "yahoo": "",
+            "email_verified": "no",
+            "signature": "Триал с 2011 года, но после бана крымских аккаунтов с 2014",
+            "phone": "",
+            "news_posts": 0,
+            "last_visit": "2026-01-20 22:49",
+            "country": "",
+            "title": "",
+            "com_posts": 0,
+            "reg_date_timestamp": 1768852026,
+            "banned": "no",
+            "full_name": "Eduard",
+            "publ_posts": 0,
+            "forum_posts": 0,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "code": 2,
+                    "name": "Принимать письма от других пользователей сайта"
+                },
+                {
+                    "name": "Скрывать телефон",
+                    "code": 8
+                }
+            ],
+            "last_visit_timestamp": 1768938576,
+            "state": "",
+            "ip": "45.144.31.163",
+            "reg_date": "2026-01-19 22:47",
+            "uid": 27,
+            "load_posts": 0,
+            "skype": "Фаурним-Азурегос",
+            "stuff_posts": 0,
+            "board_posts": 0,
+            "city": "",
+            "banrate": 0,
+            "gender": {
+                "name": "Мужской",
+                "code": 1
+            },
+            "uID": "no",
+            "birthday": "1999-02-02",
             "group": {
                 "name": "Новичок",
                 "id": 1
             },
             "rank": "Новобранец",
-            "last_visit_timestamp": 1772691002,
+            "blog_posts": 0,
+            "video_posts": 0,
+            "photo_posts": 0,
+            "user": "Faurnim",
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/azuregos\/Фаурним",
+            "avatar": "\/avatar\/00\/00\/02716592.jpg",
             "dir_posts": 0,
-            "state": "",
-            "full_name": "Ivan",
-            "jabber": "",
-            "load_posts": 0,
+            "icq": "",
+            "status": "offline",
+            "jabber": ""
+        },
+        {
+            "reg_date_timestamp": 1769926210,
+            "banned": "no",
+            "full_name": "Maxim",
+            "com_posts": 0,
             "title": "",
-            "board_posts": 0
+            "publ_posts": 0,
+            "forum_posts": 0,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "name": "Скрывать телефон",
+                    "code": 8
+                }
+            ],
+            "reg_date": "2026-02-01 09:10",
+            "last_visit_timestamp": 1774075595,
+            "ip": "95.24.105.48",
+            "state": "",
+            "email": "maxim_makarov030590@mail.ru",
+            "yahoo": "",
+            "phone": "",
+            "email_verified": "no",
+            "signature": "",
+            "news_posts": 0,
+            "last_visit": "2026-03-21 09:46",
+            "country": "",
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/gordunni\/джелири\/",
+            "photo_posts": 0,
+            "user": "Waingro1990",
+            "dir_posts": 0,
+            "avatar": "\/avatar\/00\/00\/05138170.jpg",
+            "icq": "",
+            "status": "offline",
+            "jabber": "",
+            "stuff_posts": 0,
+            "load_posts": 0,
+            "uid": 51,
+            "skype": "Джелири",
+            "board_posts": 0,
+            "city": "",
+            "banrate": 0,
+            "uID": "no",
+            "gender": {
+                "name": "Мужской",
+                "code": 1
+            },
+            "blog_posts": 0,
+            "video_posts": 0,
+            "birthday": "1990-05-03",
+            "rank": "Новобранец",
+            "group": {
+                "name": "Новичок",
+                "id": 1
+            }
+        },
+        {
+            "phone": "",
+            "signature": "",
+            "email_verified": "no",
+            "last_visit": "2026-02-11 22:13",
+            "news_posts": 0,
+            "country": "",
+            "email": "bucenko66@gmail.com",
+            "yahoo": "",
+            "forum_posts": 0,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "code": 8,
+                    "name": "Скрывать телефон"
+                }
+            ],
+            "reg_date": "2026-01-23 23:38",
+            "last_visit_timestamp": 1770837180,
+            "ip": "193.168.178.66",
+            "state": "",
+            "banned": "no",
+            "reg_date_timestamp": 1769200680,
+            "full_name": "Sedogriv",
+            "com_posts": 0,
+            "title": "",
+            "publ_posts": 0,
+            "uID": "no",
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "blog_posts": 0,
+            "video_posts": 0,
+            "birthday": "2003-04-03",
+            "group": {
+                "id": 1,
+                "name": "Новичок"
+            },
+            "rank": "Новобранец",
+            "stuff_posts": 0,
+            "load_posts": 0,
+            "skype": "Уиггинс-Галакронд",
+            "uid": 35,
+            "board_posts": 0,
+            "city": "",
+            "banrate": 0,
+            "icq": "",
+            "status": "offline",
+            "jabber": "",
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/galakrond\/уиггинс\/",
+            "photo_posts": 0,
+            "user": "Sedogriv",
+            "avatar": "",
+            "dir_posts": 0
+        },
+        {
+            "reg_date": "2026-02-03 13:42",
+            "last_visit_timestamp": 1770119350,
+            "state": "",
+            "ip": "178.155.116.142",
+            "forum_posts": 0,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "name": "Скрывать телефон",
+                    "code": 8
+                }
+            ],
+            "publ_posts": 0,
+            "reg_date_timestamp": 1770115348,
+            "banned": "no",
+            "full_name": "Рик",
+            "com_posts": 0,
+            "title": "",
+            "news_posts": 0,
+            "last_visit": "2026-02-03 14:49",
+            "country": "",
+            "phone": "",
+            "signature": "старый гном триал, любитель пве активностей на 20м уровне в World of warcraft",
+            "email_verified": "no",
+            "email": "realstalker.2010@mail.ru",
+            "yahoo": "",
+            "jabber": "",
+            "icq": "Littleshadow",
+            "status": "offline",
+            "avatar": "\/avatar\/00\/00\/05665368.png",
+            "dir_posts": 0,
+            "home_page": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/borean-tundra\/рик\/",
+            "photo_posts": 0,
+            "user": "Рик",
+            "blog_posts": 0,
+            "video_posts": 0,
+            "birthday": "1995-04-21",
+            "rank": "Новобранец",
+            "group": {
+                "id": 1,
+                "name": "Новичок"
+            },
+            "uID": "no",
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "city": "",
+            "board_posts": 0,
+            "banrate": 0,
+            "stuff_posts": 0,
+            "skype": "Рик-Борейскаятундра",
+            "load_posts": 0,
+            "uid": 56
+        },
+        {
+            "blog_posts": 0,
+            "video_posts": 0,
+            "birthday": "",
+            "group": {
+                "id": 1,
+                "name": "Новичок"
+            },
+            "rank": "Новобранец",
+            "uID": "yes",
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "city": "",
+            "board_posts": 0,
+            "banrate": 0,
+            "stuff_posts": 0,
+            "skype": "",
+            "load_posts": 0,
+            "uid": 72,
+            "jabber": "",
+            "icq": "",
+            "status": "tokenOwner",
+            "avatar": "",
+            "dir_posts": 0,
+            "home_page": "",
+            "photo_posts": 0,
+            "user": "TheTraveler4294",
+            "news_posts": 0,
+            "last_visit": "1970-01-01 03:00",
+            "country": "",
+            "phone": "",
+            "email_verified": "yes",
+            "signature": "",
+            "email": "trialportal@inbox.ru",
+            "yahoo": "",
+            "reg_date": "2026-01-18 16:19",
+            "last_visit_timestamp": 0,
+            "state": "",
+            "ip": "178.49.226.16",
+            "forum_posts": 0,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "code": 2,
+                    "name": "Принимать письма от других пользователей сайта"
+                },
+                {
+                    "name": "Получать почтовые извещения о личных сообщениях",
+                    "code": 5
+                }
+            ],
+            "publ_posts": 0,
+            "reg_date_timestamp": 1768742366,
+            "banned": "no",
+            "full_name": "",
+            "com_posts": 0,
+            "title": ""
+        },
+        {
+            "country": "",
+            "news_posts": 0,
+            "last_visit": "2026-02-20 03:08",
+            "phone": "",
+            "signature": "",
+            "email_verified": "no",
+            "yahoo": "",
+            "email": "vyacheslav.4min@yandex.ru",
+            "reg_date": "2026-02-16 07:50",
+            "state": "",
+            "ip": "217.8.127.129",
+            "last_visit_timestamp": 1771546115,
+            "options": [
+                {
+                    "code": 1,
+                    "name": "Скрывать email адрес"
+                },
+                {
+                    "code": 8,
+                    "name": "Скрывать телефон"
+                }
+            ],
+            "forum_posts": 0,
+            "publ_posts": 0,
+            "full_name": "Вячеслав Михайлович",
+            "reg_date_timestamp": 1771217429,
+            "banned": "no",
+            "title": "",
+            "com_posts": 1,
+            "video_posts": 0,
+            "blog_posts": 0,
+            "group": {
+                "name": "Новичок",
+                "id": 1
+            },
+            "rank": "Новобранец",
+            "birthday": "",
+            "uID": "no",
+            "gender": {
+                "code": 1,
+                "name": "Мужской"
+            },
+            "banrate": 0,
+            "board_posts": 0,
+            "city": "",
+            "stuff_posts": 0,
+            "uid": 65,
+            "load_posts": 0,
+            "skype": "",
+            "jabber": "",
+            "status": "offline",
+            "icq": "",
+            "avatar": "",
+            "dir_posts": 0,
+            "home_page": "",
+            "user": "4min",
+            "photo_posts": 0
+        },
+        {
+            "full_name": "Ivan",
+            "reg_date_timestamp": 1772658470,
+            "banned": "no",
+            "com_posts": 0,
+            "title": "",
+            "publ_posts": 0,
+            "options": [
+                {
+                    "name": "Скрывать email адрес",
+                    "code": 1
+                },
+                {
+                    "name": "Скрывать телефон",
+                    "code": 8
+                }
+            ],
+            "forum_posts": 0,
+            "reg_date": "2026-03-05 00:07",
+            "ip": "5.253.103.179",
+            "state": "",
+            "last_visit_timestamp": 1772691002,
+            "yahoo": "",
+            "email": "saltuhatv@mail.ru",
+            "phone": "",
+            "signature": "",
+            "email_verified": "no",
+            "country": "",
+            "news_posts": 0,
+            "last_visit": "2026-03-05 09:10",
+            "home_page": "",
+            "user": "saltuhatv",
+            "photo_posts": 0,
+            "avatar": "",
+            "dir_posts": 0,
+            "status": "offline",
+            "icq": "Saltuha#2378",
+            "jabber": "",
+            "stuff_posts": 0,
+            "skype": "",
+            "load_posts": 0,
+            "uid": 70,
+            "banrate": 0,
+            "board_posts": 0,
+            "city": "",
+            "uID": "no",
+            "gender": {
+                "name": "Мужской",
+                "code": 1
+            },
+            "video_posts": 0,
+            "blog_posts": 0,
+            "group": {
+                "name": "Новичок",
+                "id": 1
+            },
+            "rank": "Новобранец",
+            "birthday": "1995-07-15"
         }
     ],
-    "total_users": 16,
     "pages": 1,
-    "pages_list": "1"
+    "pages_list": "1",
+    "page": 1,
+    "per_page": 50,
+    "total_users": 16
 }
