@@ -2,109 +2,109 @@
     {
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
         "checked": "yes",
-        "code": "home_page",
-        "required": "no"
+        "required": "no",
+        "code": "home_page"
     },
     {
         "name": "Дата рождения",
-        "checked": "yes",
-        "code": "birthday",
-        "required": "no"
-    },
-    {
         "required": "no",
         "checked": "yes",
-        "code": "icq",
-        "name": "BattleTag"
+        "code": "birthday"
+    },
+    {
+        "name": "BattleTag",
+        "checked": "yes",
+        "required": "no",
+        "code": "icq"
     },
     {
         "name": "Jabber-идентификатор",
-        "code": "jabber",
+        "required": "no",
         "checked": "no",
-        "required": "no"
+        "code": "jabber"
     },
     {
-        "checked": "yes",
         "code": "skype",
         "name": "Персонаж в игре (имя-сервер)",
+        "checked": "yes",
         "required": "no"
     },
     {
-        "required": "no",
         "name": "Yahoo-идентификатор",
-        "code": "yahoo",
+        "checked": "no",
+        "required": "no",
+        "code": "yahoo"
+    },
+    {
+        "checked": "no",
+        "required": "no",
+        "name": "Страна",
+        "code": "country"
+    },
+    {
+        "code": "state",
+        "name": "Штат",
+        "required": "no",
         "checked": "no"
     },
     {
-        "name": "Страна",
         "checked": "no",
-        "code": "country",
-        "required": "no"
-    },
-    {
-        "checked": "no",
-        "code": "state",
-        "name": "Штат",
-        "required": "no"
-    },
-    {
-        "checked": "no",
-        "code": "city",
+        "required": "no",
         "name": "Город",
-        "required": "no"
+        "code": "city"
     },
     {
+        "required": "no",
+        "checked": "yes",
         "name": "Пол пользователя",
-        "code": "gender",
+        "code": "gender"
+    },
+    {
+        "code": "signature",
+        "name": "Подпись",
         "checked": "yes",
         "required": "no"
     },
     {
+        "code": "avatar",
         "required": "no",
-        "code": "signature",
         "checked": "yes",
-        "name": "Подпись"
+        "name": "Аватар"
     },
     {
-        "required": "no",
-        "name": "Аватар",
-        "checked": "yes",
-        "code": "avatar"
-    },
-    {
-        "required": "no",
         "code": "phone",
         "checked": "no",
+        "required": "no",
         "name": "Номер телефона"
     },
     {
-        "name": "Логин",
         "code": "user",
+        "required": "yes",
         "checked": "yes",
-        "required": "yes"
+        "name": "Логин"
     },
     {
         "name": "Пароль",
+        "required": "yes",
         "checked": "yes",
-        "code": "password",
-        "required": "yes"
+        "code": "password"
     },
     {
         "code": "full_name",
-        "checked": "yes",
         "name": "Полное имя",
-        "required": "yes"
+        "required": "yes",
+        "checked": "yes"
     },
     {
+        "checked": "yes",
+        "required": "yes",
         "name": "Email адрес",
-        "code": "email",
-        "checked": "yes",
-        "required": "yes"
+        "code": "email"
     },
     {
-        "name": "Опции пользователя",
-        "checked": "yes",
         "code": "options",
-        "required": "no"
+        "name": "Опции пользователя",
+        "required": "no",
+        "checked": "yes"
     }
 ]
