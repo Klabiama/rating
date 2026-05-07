@@ -1,110 +1,110 @@
 [
     {
         "code": "home_page",
-        "required": "no",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
-        "checked": "yes"
-    },
-    {
         "checked": "yes",
-        "required": "no",
-        "name": "Дата рождения",
-        "code": "birthday"
-    },
-    {
-        "code": "icq",
-        "name": "BattleTag",
-        "required": "no",
-        "checked": "yes"
-    },
-    {
-        "checked": "no",
-        "name": "Jabber-идентификатор",
-        "required": "no",
-        "code": "jabber"
-    },
-    {
-        "name": "Персонаж в игре (имя-сервер)",
-        "required": "no",
-        "checked": "yes",
-        "code": "skype"
-    },
-    {
-        "code": "yahoo",
-        "required": "no",
-        "name": "Yahoo-идентификатор",
-        "checked": "no"
-    },
-    {
-        "checked": "no",
-        "required": "no",
-        "name": "Страна",
-        "code": "country"
-    },
-    {
-        "code": "state",
-        "required": "no",
-        "name": "Штат",
-        "checked": "no"
-    },
-    {
-        "code": "city",
-        "checked": "no",
-        "required": "no",
-        "name": "Город"
-    },
-    {
-        "name": "Пол пользователя",
-        "required": "no",
-        "checked": "yes",
-        "code": "gender"
-    },
-    {
-        "name": "Подпись",
-        "required": "no",
-        "checked": "yes",
-        "code": "signature"
-    },
-    {
-        "code": "avatar",
-        "checked": "yes",
-        "name": "Аватар",
         "required": "no"
     },
     {
+        "code": "birthday",
+        "name": "Дата рождения",
+        "required": "no",
+        "checked": "yes"
+    },
+    {
+        "required": "no",
+        "checked": "yes",
+        "name": "BattleTag",
+        "code": "icq"
+    },
+    {
+        "name": "Jabber-идентификатор",
+        "code": "jabber",
+        "required": "no",
+        "checked": "no"
+    },
+    {
+        "name": "Персонаж в игре (имя-сервер)",
+        "code": "skype",
+        "checked": "yes",
+        "required": "no"
+    },
+    {
+        "required": "no",
+        "checked": "no",
+        "code": "yahoo",
+        "name": "Yahoo-идентификатор"
+    },
+    {
+        "name": "Страна",
+        "code": "country",
+        "required": "no",
+        "checked": "no"
+    },
+    {
+        "required": "no",
+        "checked": "no",
+        "name": "Штат",
+        "code": "state"
+    },
+    {
         "checked": "no",
         "required": "no",
+        "name": "Город",
+        "code": "city"
+    },
+    {
+        "checked": "yes",
+        "required": "no",
+        "code": "gender",
+        "name": "Пол пользователя"
+    },
+    {
+        "required": "no",
+        "checked": "yes",
+        "code": "signature",
+        "name": "Подпись"
+    },
+    {
+        "name": "Аватар",
+        "code": "avatar",
+        "checked": "yes",
+        "required": "no"
+    },
+    {
+        "code": "phone",
         "name": "Номер телефона",
-        "code": "phone"
+        "checked": "no",
+        "required": "no"
     },
     {
         "code": "user",
-        "checked": "yes",
-        "required": "yes",
-        "name": "Логин"
-    },
-    {
-        "code": "password",
-        "name": "Пароль",
+        "name": "Логин",
         "required": "yes",
         "checked": "yes"
     },
     {
-        "checked": "yes",
         "required": "yes",
-        "name": "Полное имя",
-        "code": "full_name"
+        "checked": "yes",
+        "code": "password",
+        "name": "Пароль"
     },
     {
-        "code": "email",
+        "code": "full_name",
+        "name": "Полное имя",
         "checked": "yes",
-        "name": "Email адрес",
         "required": "yes"
     },
     {
         "checked": "yes",
+        "required": "yes",
+        "name": "Email адрес",
+        "code": "email"
+    },
+    {
+        "code": "options",
         "name": "Опции пользователя",
-        "required": "no",
-        "code": "options"
+        "checked": "yes",
+        "required": "no"
     }
 ]
