@@ -1,7 +1,7 @@
 {
     "month": "2026-06",
-    "updated_utc": "2026-06-09T22:27:01+00:00",
-    "count": 9,
+    "updated_utc": "2026-06-10T04:18:43+00:00",
+    "count": 10,
     "count_all_chars": 10,
     "max_level": 20,
     "rows": [
@@ -58,6 +58,20 @@
             "name": "тентара",
             "level": 20,
             "honorable_kills_total": 10873,
+            "honorable_kills_month": 0,
+            "honorable_kills_prev_month": 0
+        },
+        {
+            "uid": 13,
+            "user": "Друидишна",
+            "skype": "Друидишна-Вечная Песня",
+            "char_url": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/eversong\/Друидишна",
+            "pvp_url": "https:\/\/worldofwarcraft.blizzard.com\/ru-ru\/character\/eu\/eversong\/Друидишна\/pvp",
+            "region": "eu",
+            "realm": "eversong",
+            "name": "Друидишна",
+            "level": 20,
+            "honorable_kills_total": 9286,
             "honorable_kills_month": 0,
             "honorable_kills_prev_month": 0
         },
@@ -132,14 +146,5 @@
             "honorable_kills_prev_month": 0
         }
     ],
-    "errors": [
-        {
-            "user": "Друидишна",
-            "uid": 13,
-            "char": "eu\/eversong\/Друидишна",
-            "status": 500,
-            "where": "character_summary",
-            "raw_sample": "Downstream Error"
-        }
-    ]
+    "errors": []
 }
