@@ -1,146 +1,146 @@
 [
     {
         "checked": "yes",
-        "code": "home_page",
+        "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
         "required": "no",
-        "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)"
+        "code": "home_page"
     },
     {
-        "name": "Дата рождения",
-        "required": "no",
         "code": "birthday",
+        "required": "no",
+        "name": "Дата рождения",
         "checked": "yes"
     },
     {
+        "checked": "yes",
         "name": "BattleTag",
-        "required": "no",
         "code": "icq",
-        "checked": "yes"
+        "required": "no"
     },
     {
-        "name": "Jabber-идентификатор",
-        "required": "no",
         "code": "jabber",
-        "checked": "no"
+        "required": "no",
+        "checked": "no",
+        "name": "Jabber-идентификатор"
     },
     {
         "code": "skype",
+        "required": "no",
         "checked": "yes",
-        "name": "Персонаж в игре (имя-сервер)",
-        "required": "no"
+        "name": "Персонаж в игре (имя-сервер)"
     },
     {
-        "required": "no",
-        "name": "Yahoo-идентификатор",
         "checked": "no",
+        "name": "Yahoo-идентификатор",
+        "required": "no",
         "code": "yahoo"
     },
     {
-        "checked": "yes",
-        "code": "telegram",
         "required": "no",
+        "code": "telegram",
+        "checked": "yes",
         "name": "Telegram"
     },
     {
+        "name": "WhatsApp",
         "checked": "no",
-        "code": "whatsapp",
         "required": "no",
-        "name": "WhatsApp"
+        "code": "whatsapp"
     },
     {
+        "code": "viber",
         "required": "no",
-        "name": "Viber",
         "checked": "no",
-        "code": "viber"
+        "name": "Viber"
     },
     {
+        "code": "discord",
         "required": "no",
-        "name": "Discord",
         "checked": "yes",
-        "code": "discord"
+        "name": "Discord"
     },
     {
-        "required": "no",
         "name": "Instagram",
         "checked": "no",
-        "code": "instagram"
-    },
-    {
-        "required": "no",
-        "name": "Facebook",
-        "checked": "no",
-        "code": "fb"
-    },
-    {
-        "name": "Страна",
-        "required": "no",
-        "code": "country",
-        "checked": "no"
-    },
-    {
-        "checked": "no",
-        "code": "state",
-        "required": "no",
-        "name": "Штат"
-    },
-    {
-        "required": "no",
-        "name": "Город",
-        "checked": "no",
-        "code": "city"
-    },
-    {
-        "checked": "yes",
-        "code": "gender",
-        "required": "no",
-        "name": "Пол пользователя"
-    },
-    {
-        "required": "no",
-        "name": "Подпись",
-        "checked": "yes",
-        "code": "signature"
-    },
-    {
-        "name": "Аватар",
-        "required": "no",
-        "code": "avatar",
-        "checked": "yes"
-    },
-    {
-        "code": "phone",
-        "checked": "no",
-        "name": "Номер телефона",
+        "code": "instagram",
         "required": "no"
     },
     {
+        "required": "no",
+        "code": "fb",
+        "checked": "no",
+        "name": "Facebook"
+    },
+    {
+        "checked": "no",
+        "name": "Страна",
+        "required": "no",
+        "code": "country"
+    },
+    {
+        "checked": "no",
+        "name": "Штат",
+        "code": "state",
+        "required": "no"
+    },
+    {
+        "name": "Город",
+        "checked": "no",
+        "required": "no",
+        "code": "city"
+    },
+    {
+        "name": "Пол пользователя",
+        "checked": "yes",
+        "code": "gender",
+        "required": "no"
+    },
+    {
+        "required": "no",
+        "code": "signature",
+        "checked": "yes",
+        "name": "Подпись"
+    },
+    {
+        "code": "avatar",
+        "required": "no",
+        "name": "Аватар",
+        "checked": "yes"
+    },
+    {
+        "required": "no",
+        "code": "phone",
+        "name": "Номер телефона",
+        "checked": "no"
+    },
+    {
+        "name": "Логин",
         "checked": "yes",
         "code": "user",
-        "required": "yes",
-        "name": "Логин"
-    },
-    {
-        "required": "yes",
-        "name": "Пароль",
-        "checked": "yes",
-        "code": "password"
-    },
-    {
-        "code": "full_name",
-        "checked": "yes",
-        "name": "Полное имя",
         "required": "yes"
     },
     {
-        "name": "Email адрес",
         "required": "yes",
-        "code": "email",
+        "code": "password",
+        "name": "Пароль",
         "checked": "yes"
     },
     {
+        "code": "full_name",
+        "required": "yes",
+        "checked": "yes",
+        "name": "Полное имя"
+    },
+    {
+        "code": "email",
+        "required": "yes",
+        "checked": "yes",
+        "name": "Email адрес"
+    },
+    {
+        "checked": "yes",
         "name": "Опции пользователя",
-        "required": "no",
         "code": "options",
-        "checked": "yes"
+        "required": "no"
     }
 ]
