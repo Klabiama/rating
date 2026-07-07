@@ -2,134 +2,134 @@
     {
         "checked": "yes",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
-        "required": "no",
-        "code": "home_page"
+        "code": "home_page",
+        "required": "no"
     },
     {
-        "code": "birthday",
-        "required": "no",
+        "checked": "yes",
         "name": "Дата рождения",
-        "checked": "yes"
+        "code": "birthday",
+        "required": "no"
     },
     {
         "checked": "yes",
         "name": "BattleTag",
-        "code": "icq",
+        "required": "no",
+        "code": "icq"
+    },
+    {
+        "name": "Jabber-идентификатор",
+        "checked": "no",
+        "code": "jabber",
         "required": "no"
     },
     {
-        "code": "jabber",
         "required": "no",
-        "checked": "no",
-        "name": "Jabber-идентификатор"
-    },
-    {
         "code": "skype",
-        "required": "no",
-        "checked": "yes",
-        "name": "Персонаж в игре (имя-сервер)"
+        "name": "Персонаж в игре (имя-сервер)",
+        "checked": "yes"
     },
     {
-        "checked": "no",
-        "name": "Yahoo-идентификатор",
+        "code": "yahoo",
         "required": "no",
-        "code": "yahoo"
+        "name": "Yahoo-идентификатор",
+        "checked": "no"
     },
     {
         "required": "no",
         "code": "telegram",
-        "checked": "yes",
-        "name": "Telegram"
+        "name": "Telegram",
+        "checked": "yes"
     },
     {
-        "name": "WhatsApp",
-        "checked": "no",
         "required": "no",
-        "code": "whatsapp"
+        "code": "whatsapp",
+        "name": "WhatsApp",
+        "checked": "no"
     },
     {
         "code": "viber",
         "required": "no",
-        "checked": "no",
-        "name": "Viber"
+        "name": "Viber",
+        "checked": "no"
     },
     {
-        "code": "discord",
-        "required": "no",
         "checked": "yes",
-        "name": "Discord"
+        "name": "Discord",
+        "code": "discord",
+        "required": "no"
     },
     {
         "name": "Instagram",
         "checked": "no",
-        "code": "instagram",
-        "required": "no"
+        "required": "no",
+        "code": "instagram"
     },
     {
-        "required": "no",
         "code": "fb",
-        "checked": "no",
-        "name": "Facebook"
-    },
-    {
-        "checked": "no",
-        "name": "Страна",
         "required": "no",
-        "code": "country"
+        "name": "Facebook",
+        "checked": "no"
     },
     {
+        "name": "Страна",
         "checked": "no",
-        "name": "Штат",
-        "code": "state",
+        "code": "country",
         "required": "no"
     },
     {
-        "name": "Город",
+        "name": "Штат",
         "checked": "no",
         "required": "no",
-        "code": "city"
+        "code": "state"
     },
     {
-        "name": "Пол пользователя",
+        "code": "city",
+        "required": "no",
+        "checked": "no",
+        "name": "Город"
+    },
+    {
         "checked": "yes",
+        "name": "Пол пользователя",
         "code": "gender",
         "required": "no"
     },
     {
-        "required": "no",
         "code": "signature",
+        "required": "no",
         "checked": "yes",
         "name": "Подпись"
     },
     {
-        "code": "avatar",
-        "required": "no",
+        "checked": "yes",
         "name": "Аватар",
-        "checked": "yes"
+        "code": "avatar",
+        "required": "no"
     },
     {
-        "required": "no",
         "code": "phone",
+        "required": "no",
         "name": "Номер телефона",
         "checked": "no"
     },
     {
-        "name": "Логин",
-        "checked": "yes",
+        "required": "yes",
         "code": "user",
-        "required": "yes"
-    },
-    {
-        "required": "yes",
-        "code": "password",
-        "name": "Пароль",
-        "checked": "yes"
-    },
-    {
-        "code": "full_name",
-        "required": "yes",
         "checked": "yes",
-        "name": "Полное имя"
+        "name": "Логин"
+    },
+    {
+        "name": "Пароль",
+        "checked": "yes",
+        "required": "yes",
+        "code": "password"
+    },
+    {
+        "name": "Полное имя",
+        "checked": "yes",
+        "required": "yes",
+        "code": "full_name"
     },
     {
         "code": "email",
@@ -138,9 +138,9 @@
         "name": "Email адрес"
     },
     {
-        "checked": "yes",
         "name": "Опции пользователя",
-        "code": "options",
-        "required": "no"
+        "checked": "yes",
+        "required": "no",
+        "code": "options"
     }
 ]
