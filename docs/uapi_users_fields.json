@@ -1,15 +1,15 @@
 [
     {
         "required": "no",
+        "code": "home_page",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
-        "checked": "yes",
-        "code": "home_page"
+        "checked": "yes"
     },
     {
+        "code": "birthday",
         "required": "no",
         "name": "Дата рождения",
-        "checked": "yes",
-        "code": "birthday"
+        "checked": "yes"
     },
     {
         "checked": "yes",
@@ -20,44 +20,44 @@
     {
         "required": "no",
         "name": "Jabber-идентификатор",
-        "checked": "no",
-        "code": "jabber"
+        "code": "jabber",
+        "checked": "no"
     },
     {
-        "code": "skype",
         "checked": "yes",
         "required": "no",
-        "name": "Персонаж в игре (имя-сервер)"
+        "name": "Персонаж в игре (имя-сервер)",
+        "code": "skype"
     },
     {
-        "code": "yahoo",
         "required": "no",
+        "code": "yahoo",
         "name": "Yahoo-идентификатор",
         "checked": "no"
     },
     {
-        "code": "telegram",
         "required": "no",
+        "code": "telegram",
         "name": "Telegram",
         "checked": "yes"
     },
     {
-        "code": "whatsapp",
-        "name": "WhatsApp",
-        "required": "no",
-        "checked": "no"
-    },
-    {
-        "required": "no",
-        "name": "Viber",
         "checked": "no",
-        "code": "viber"
+        "required": "no",
+        "code": "whatsapp",
+        "name": "WhatsApp"
     },
     {
-        "code": "discord",
+        "checked": "no",
+        "required": "no",
+        "code": "viber",
+        "name": "Viber"
+    },
+    {
         "checked": "yes",
+        "required": "no",
         "name": "Discord",
-        "required": "no"
+        "code": "discord"
     },
     {
         "code": "instagram",
@@ -68,50 +68,50 @@
     {
         "checked": "no",
         "required": "no",
-        "name": "Facebook",
-        "code": "fb"
+        "code": "fb",
+        "name": "Facebook"
     },
     {
+        "checked": "no",
         "required": "no",
         "name": "Страна",
-        "checked": "no",
         "code": "country"
     },
     {
         "checked": "no",
-        "name": "Штат",
         "required": "no",
-        "code": "state"
+        "code": "state",
+        "name": "Штат"
     },
     {
+        "checked": "no",
+        "required": "no",
         "code": "city",
-        "required": "no",
-        "name": "Город",
-        "checked": "no"
+        "name": "Город"
     },
     {
-        "code": "gender",
         "checked": "yes",
+        "code": "gender",
         "required": "no",
         "name": "Пол пользователя"
     },
     {
-        "checked": "yes",
+        "code": "signature",
         "required": "no",
         "name": "Подпись",
-        "code": "signature"
+        "checked": "yes"
     },
     {
-        "code": "avatar",
         "required": "no",
+        "code": "avatar",
         "name": "Аватар",
         "checked": "yes"
     },
     {
-        "code": "phone",
-        "checked": "no",
         "required": "no",
-        "name": "Номер телефона"
+        "code": "phone",
+        "name": "Номер телефона",
+        "checked": "no"
     },
     {
         "checked": "yes",
@@ -122,25 +122,25 @@
     {
         "checked": "yes",
         "required": "yes",
-        "name": "Пароль",
-        "code": "password"
+        "code": "password",
+        "name": "Пароль"
     },
     {
-        "code": "full_name",
         "checked": "yes",
+        "code": "full_name",
         "required": "yes",
         "name": "Полное имя"
     },
     {
-        "required": "yes",
-        "name": "Email адрес",
         "checked": "yes",
-        "code": "email"
+        "code": "email",
+        "required": "yes",
+        "name": "Email адрес"
     },
     {
-        "name": "Опции пользователя",
-        "required": "no",
         "checked": "yes",
-        "code": "options"
+        "code": "options",
+        "required": "no",
+        "name": "Опции пользователя"
     }
 ]
