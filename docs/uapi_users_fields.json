@@ -1,57 +1,57 @@
 [
     {
-        "checked": "yes",
-        "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
         "required": "no",
+        "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
+        "checked": "yes",
         "code": "home_page"
     },
     {
-        "checked": "yes",
-        "required": "no",
+        "code": "birthday",
         "name": "Дата рождения",
-        "code": "birthday"
+        "required": "no",
+        "checked": "yes"
     },
     {
         "required": "no",
         "name": "BattleTag",
-        "code": "icq",
-        "checked": "yes"
+        "checked": "yes",
+        "code": "icq"
     },
     {
         "checked": "no",
-        "code": "jabber",
+        "required": "no",
         "name": "Jabber-идентификатор",
-        "required": "no"
+        "code": "jabber"
     },
     {
-        "checked": "yes",
         "code": "skype",
+        "checked": "yes",
         "name": "Персонаж в игре (имя-сервер)",
         "required": "no"
     },
     {
-        "checked": "no",
-        "name": "Yahoo-идентификатор",
         "required": "no",
+        "name": "Yahoo-идентификатор",
+        "checked": "no",
         "code": "yahoo"
     },
     {
-        "checked": "yes",
+        "code": "telegram",
         "name": "Telegram",
         "required": "no",
-        "code": "telegram"
-    },
-    {
-        "name": "WhatsApp",
-        "required": "no",
-        "code": "whatsapp",
-        "checked": "no"
+        "checked": "yes"
     },
     {
         "checked": "no",
+        "name": "WhatsApp",
+        "required": "no",
+        "code": "whatsapp"
+    },
+    {
         "code": "viber",
         "required": "no",
-        "name": "Viber"
+        "name": "Viber",
+        "checked": "no"
     },
     {
         "code": "discord",
@@ -61,15 +61,15 @@
     },
     {
         "checked": "no",
-        "name": "Instagram",
         "required": "no",
+        "name": "Instagram",
         "code": "instagram"
     },
     {
-        "checked": "no",
-        "code": "fb",
         "required": "no",
-        "name": "Facebook"
+        "name": "Facebook",
+        "checked": "no",
+        "code": "fb"
     },
     {
         "code": "country",
@@ -78,10 +78,10 @@
         "checked": "no"
     },
     {
+        "code": "state",
         "checked": "no",
-        "required": "no",
         "name": "Штат",
-        "code": "state"
+        "required": "no"
     },
     {
         "checked": "no",
@@ -91,9 +91,9 @@
     },
     {
         "code": "gender",
+        "checked": "yes",
         "name": "Пол пользователя",
-        "required": "no",
-        "checked": "yes"
+        "required": "no"
     },
     {
         "checked": "yes",
@@ -102,45 +102,45 @@
         "code": "signature"
     },
     {
-        "required": "no",
-        "name": "Аватар",
         "code": "avatar",
-        "checked": "yes"
-    },
-    {
-        "name": "Номер телефона",
-        "required": "no",
-        "code": "phone",
-        "checked": "no"
-    },
-    {
         "checked": "yes",
+        "name": "Аватар",
+        "required": "no"
+    },
+    {
+        "required": "no",
+        "name": "Номер телефона",
+        "checked": "no",
+        "code": "phone"
+    },
+    {
+        "code": "user",
         "required": "yes",
         "name": "Логин",
-        "code": "user"
+        "checked": "yes"
     },
     {
         "name": "Пароль",
         "required": "yes",
-        "code": "password",
-        "checked": "yes"
+        "checked": "yes",
+        "code": "password"
     },
     {
         "name": "Полное имя",
         "required": "yes",
-        "code": "full_name",
-        "checked": "yes"
+        "checked": "yes",
+        "code": "full_name"
     },
     {
+        "code": "email",
         "checked": "yes",
         "required": "yes",
-        "name": "Email адрес",
-        "code": "email"
+        "name": "Email адрес"
     },
     {
-        "checked": "yes",
         "name": "Опции пользователя",
         "required": "no",
+        "checked": "yes",
         "code": "options"
     }
 ]
