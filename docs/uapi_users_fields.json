@@ -1,152 +1,152 @@
 [
     {
-        "code": "user",
         "required": "yes",
+        "checked": "yes",
         "name": "Логин",
+        "code": "user"
+    },
+    {
+        "required": "yes",
+        "code": "email",
+        "name": "Email адрес",
         "checked": "yes"
     },
     {
-        "code": "email",
+        "name": "Полное имя",
+        "code": "full_name",
         "checked": "yes",
-        "name": "Email адрес",
         "required": "yes"
     },
     {
-        "name": "Полное имя",
-        "required": "yes",
-        "checked": "yes",
-        "code": "full_name"
-    },
-    {
-        "checked": "yes",
         "required": "no",
+        "checked": "yes",
         "name": "Ссылка на персонажа (worldofwarcraft.blizzard.com)",
         "code": "home_page"
     },
     {
+        "checked": "yes",
         "code": "birthday",
-        "checked": "yes",
-        "required": "no",
-        "name": "Дата рождения"
-    },
-    {
-        "checked": "yes",
-        "required": "no",
-        "name": "BattleTag",
-        "code": "icq"
-    },
-    {
-        "checked": "no",
-        "name": "Jabber-идентификатор",
-        "required": "no",
-        "code": "jabber"
-    },
-    {
-        "code": "skype",
-        "required": "no",
-        "name": "Персонаж в игре (имя-сервер)",
-        "checked": "yes"
-    },
-    {
-        "checked": "no",
-        "name": "Yahoo-идентификатор",
-        "required": "no",
-        "code": "yahoo"
-    },
-    {
-        "code": "telegram",
-        "name": "Telegram",
-        "required": "no",
-        "checked": "yes"
-    },
-    {
-        "checked": "no",
-        "name": "WhatsApp",
-        "required": "no",
-        "code": "whatsapp"
-    },
-    {
-        "name": "Viber",
-        "required": "no",
-        "checked": "no",
-        "code": "viber"
-    },
-    {
-        "code": "discord",
-        "checked": "yes",
-        "name": "Discord",
+        "name": "Дата рождения",
         "required": "no"
     },
     {
-        "code": "instagram",
-        "checked": "no",
-        "required": "no",
-        "name": "Instagram"
+        "code": "icq",
+        "name": "BattleTag",
+        "checked": "yes",
+        "required": "no"
     },
     {
-        "name": "Facebook",
         "required": "no",
         "checked": "no",
-        "code": "fb"
+        "name": "Jabber-идентификатор",
+        "code": "jabber"
     },
     {
+        "required": "no",
+        "name": "Персонаж в игре (имя-сервер)",
+        "code": "skype",
+        "checked": "yes"
+    },
+    {
+        "required": "no",
         "checked": "no",
-        "name": "Страна",
-        "required": "no",
-        "code": "country"
+        "name": "Yahoo-идентификатор",
+        "code": "yahoo"
     },
     {
-        "code": "state",
-        "name": "Штат",
         "required": "no",
+        "name": "Telegram",
+        "code": "telegram",
+        "checked": "yes"
+    },
+    {
+        "code": "whatsapp",
+        "name": "WhatsApp",
+        "checked": "no",
+        "required": "no"
+    },
+    {
+        "required": "no",
+        "code": "viber",
+        "name": "Viber",
         "checked": "no"
     },
     {
+        "required": "no",
+        "name": "Discord",
+        "code": "discord",
+        "checked": "yes"
+    },
+    {
+        "required": "no",
+        "name": "Instagram",
+        "code": "instagram",
+        "checked": "no"
+    },
+    {
+        "name": "Facebook",
+        "code": "fb",
         "checked": "no",
+        "required": "no"
+    },
+    {
+        "required": "no",
+        "name": "Страна",
+        "code": "country",
+        "checked": "no"
+    },
+    {
+        "required": "no",
+        "code": "state",
+        "name": "Штат",
+        "checked": "no"
+    },
+    {
         "required": "no",
         "name": "Город",
-        "code": "city"
+        "code": "city",
+        "checked": "no"
     },
     {
-        "required": "no",
+        "checked": "yes",
+        "code": "gender",
         "name": "Пол пользователя",
-        "checked": "yes",
-        "code": "gender"
+        "required": "no"
     },
     {
-        "code": "signature",
         "checked": "yes",
+        "code": "signature",
         "name": "Подпись",
         "required": "no"
     },
     {
         "required": "no",
+        "code": "avatar",
         "name": "Аватар",
-        "checked": "yes",
-        "code": "avatar"
+        "checked": "yes"
     },
     {
-        "code": "phone",
-        "name": "Номер телефона",
         "required": "no",
-        "checked": "no"
-    },
-    {
-        "checked": "yes",
-        "required": "no",
-        "name": "Политика конфиденциальности",
-        "code": "policy"
-    },
-    {
-        "checked": "yes",
-        "name": "Пользовательское соглашение",
-        "required": "no",
-        "code": "agreement"
-    },
-    {
-        "code": "options",
         "checked": "no",
+        "code": "phone",
+        "name": "Номер телефона"
+    },
+    {
         "required": "no",
-        "name": "Опции пользователя"
+        "checked": "yes",
+        "code": "policy",
+        "name": "Политика конфиденциальности"
+    },
+    {
+        "required": "no",
+        "checked": "yes",
+        "code": "agreement",
+        "name": "Пользовательское соглашение"
+    },
+    {
+        "required": "no",
+        "name": "Опции пользователя",
+        "code": "options",
+        "checked": "no"
     }
 ]
